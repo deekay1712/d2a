@@ -1,0 +1,18 @@
+.homeAboutWrapper{
+    background-color: rgba(86, 102, 122, 0.1);
+    padding: 100px;
+    color: #070707;
+}
+.homeAboutHeading{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.homeAboutText{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+}

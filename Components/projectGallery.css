@@ -1,0 +1,86 @@
+.projectGalleryWrapper{
+    padding: 0 5vw 5vw 5vw;
+}
+.projectCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projectCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projectCardImage{
+    width: calc(90vw / 3.04);
+    height: calc(90vw / 5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.projectCardImage img{
+    object-fit: cover;
+    height: 93%;
+    width: 96%;
+}
+
+.projectCardLabel{
+    color: white;
+    position: absolute; 
+    top: 3%;
+    left: 2%;
+    bottom: 3%;
+    right: 2%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: all 0.4s ease 0s;
+    opacity: 0;
+    padding: 5px 10px;
+}
+.projectCard:hover .projectCardLabel{
+   opacity: 1;
+   cursor: pointer;
+}
+.projectCardLabelMobile{
+    display: none;
+    background-color: rgba(86, 102, 122, 0.1);
+    width: 96%;
+    padding: 5px 10px;
+    border-radius: 0 0 5px 5px;
+}
+.projectCardName{
+    font-size: calc(8px + 1vw);
+    font-weight: 700;
+}
+.projectCardAddress{
+    font-size: calc(8px + 0.8vw);
+    font-weight: 400;
+}
+@media (max-width: 1200px){
+    .projectCardLabel{
+        display: none;
+    }
+    .projectCardLabelMobile{
+        display: block;
+    }
+    .projectCardImage{
+        align-items:flex-end;
+    }
+}
+@media (max-width: 992px) {
+    .projectCardImage{
+        width: calc(90vw / 2.04);
+        height: calc(90vw / 3);
+    }
+    
+}
+@media (max-width: 768px){
+    .projectCardLabel{
+        display: none;
+    }
+    .projectCardImage{
+        width: 90vw;
+        height: calc(90vw / 2);
+    }
+}

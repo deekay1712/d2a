@@ -1,0 +1,127 @@
+.navbarWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    height: 60px;
+    user-select: none;
+}
+.navbarElements {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    list-style: none;
+    margin-right: 40px;
+    padding: 0;
+}
+
+.sideDrawer{
+    display: none !important;
+}
+
+.navItem{
+    position: relative;
+    margin: 0rem 2rem 0rem 2rem;
+    cursor: pointer;
+}
+.navItem::after{
+    content: "";
+    background-color: #56667A;
+    height: 2px;
+    position: absolute;
+    width: 0%;
+    bottom: -5px;
+    left: 0;
+    transition: all 0.2s ease-in-out;
+}
+.navItem:hover:after{
+    width: 100%;
+}
+
+.toggleButton {
+    height: 25px;
+    width: 40px;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.toggleButton:focus {
+    outline: none;
+}
+
+.toggleButtonLine {
+    width: 40px;
+    height: 2.5px;
+    border-radius: 1px;
+    background-color: black;
+    transition: all 0.1s ease-in-out;
+}
+
+.cross {
+    background-color: black;
+}
+
+.cross:nth-child(1) {
+    transform-origin: left;
+    transform: rotate(35deg);
+}
+
+.cross:nth-child(2){
+    opacity: 0;
+}
+
+.cross:nth-child(3) {
+    transform-origin: left;
+    transform: rotate(-35deg);
+}
+
+
+
+@media (max-width: 992px) {
+    .navbarWrapper {
+        font-size: calc(10px + 0.15vw);
+    }
+    .sideDrawer{
+        display: block !important;
+    }
+    .navbarElements{
+        flex-direction: column !important;
+        position: fixed;
+        right: 0;
+        top: 0;
+        margin: 0;
+        transition: all 0.6s ease-in-out;
+        background-color: #56667A;
+        width: 340px;
+        height: 100vh;
+        justify-content: center;
+
+    }
+    .navItem{
+        padding: 10px 10px;
+        transition: all 0.8s ease-in-out;
+    }
+    .navItemSlide{
+        transform: translateX(50%) !important;
+    }
+    .sideBarHide{
+        transform: translateX(100%);
+    }
+    .navItem::after{
+        display: none;
+    }
+
+}
