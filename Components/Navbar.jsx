@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <div className="navbarWrapper">
             <div className='navbarLogo'>
-                <img src="Assets/LogoBlack.png" alt="" />
+                <img src="/Assets/LogoBlack.png" alt="" />
             </div>
             <ul className={`navbarElements ${sideBar? '' : 'sideBarHide'}`}>
                 <li className={`navItem ${sideBar? '' : 'navItemSlide'}`}><Link href="/"><a>HOME</a></Link></li>

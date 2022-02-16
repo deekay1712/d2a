@@ -1,13 +1,9 @@
-import Navbar from '../Components/Navbar';
-import ContactUs from '../Components/ContactUs';
-import Footer from '../Components/Footer';
+import ContactUs from "../Components/ContactUs";
 
 export default function contactUs() {
   return (
-    <div>
-        <Navbar/>
-        <ContactUs/>
-        <Footer/>
-    </div>
-  )
+    <>
+      <ContactUs />
+    </>
+  );
 }
