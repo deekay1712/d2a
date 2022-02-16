@@ -1,15 +1,13 @@
 import Link from 'next/link';
-import React, { useState } from 'react'
-// import './navbar.css'
-// import { Link } from "react-router-dom";
+import React, { useState } from 'react';
 
 export default function Navbar() {
     const [toggle,setToggle] = useState(false);
     const [sideBar,setSideBar] = useState(false);
     return (
         <div className="navbarWrapper">
-            <div className='navabarLogo'>
-                <p>Dream Designers</p>
+            <div className='navbarLogo'>
+                <img src="Assets/LogoBlack.png" alt="" />
             </div>
             <ul className={`navbarElements ${sideBar? '' : 'sideBarHide'}`}>
                 <li className={`navItem ${sideBar? '' : 'navItemSlide'}`}><Link href="/"><a>HOME</a></Link></li>

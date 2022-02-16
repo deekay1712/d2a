@@ -12,6 +12,10 @@
     height: 60px;
     user-select: none;
 }
+.navbarLogo img{
+    width: 50px;
+    margin-left: 10px;
+}
 .navbarElements {
     display: flex;
     flex-flow: row nowrap;
