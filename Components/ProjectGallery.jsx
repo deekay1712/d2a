@@ -10,11 +10,11 @@ export default function ProjectGallery() {
       <div className="projectCards">
         {projectData.map((item, index) => {
           return (
-            <Link key={index} href={`portfolio/ ${item.id}`} passHref>
+            <Link key={index} href={`/portfolio/${item.id}`} passHref>
               <div key={index} className="projectCard">
                 <div className="projectCardImage">
                   <img src={item.image[0]} alt={item.name}/>
-                  <Link href={`portfolio/${item.id}`} passHref>
+                  <Link href={`/portfolio/${item.id}`} passHref>
                     <div className="projectCardLabel">
                       <p className="projectCardName">{item.name}</p>
                       <p className="projectCardAddress">{item.address}</p>

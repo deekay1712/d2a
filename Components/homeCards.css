@@ -1,7 +1,7 @@
 .homeCardsComp{
     /* display: flex;
     flex-direction: column; */
-    padding: 50px 5vw 100px 5vw;
+    padding: 6vw;
     background-color: #070707;
 }
 .featuredProjectsHeading{
@@ -16,13 +16,13 @@
     justify-content: space-between;
 }
 .homeCard{
-    width: calc(83vw / 3);
+    width: calc(80vw / 3);
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .homeCardImgDiv{
     position: relative;
-    height: calc(83vw / 5);
+    height: calc(80vw / 5);
     width: 100%;
 }
 .homeCardDesc{

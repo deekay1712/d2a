@@ -20,7 +20,7 @@
 }
 .serviceL, .serviceR{
     display: flex;
-    padding: 100px;
+    padding: 6vw;
 }
 .serviceL{
     background-color: rgba(86, 102, 122, 0.1);
@@ -83,7 +83,7 @@
 @media (max-width: 992px){
     .serviceL, .serviceR{
         flex-direction: column;
-        padding: 40px;
+        /* padding: 40px; */
     }
     .serviceR{
         flex-direction: column-reverse;
