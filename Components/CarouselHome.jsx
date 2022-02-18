@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-// import "./carouselHome.css"
 
 export default function CarouselHome(props) {
   return (
