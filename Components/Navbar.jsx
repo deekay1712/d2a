@@ -1,9 +1,15 @@
 import Link from 'next/link';
-import React, { useState } from 'react';
+import { useRouter } from 'next/router';
+import React, { useEffect, useState } from 'react';
 
 export default function Navbar() {
+    const router = useRouter();
     const [toggle,setToggle] = useState(false);
     const [sideBar,setSideBar] = useState(false);
+    useEffect(() => {
+        console.log('path : ',router.pathname);
+        
+    },[router.pathname])
     return (
         <div className="navbarWrapper">
             <div className='navbarLogo'>
