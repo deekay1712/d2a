@@ -5,19 +5,19 @@ import HomeCards from "../Components/HomeCards";
 export default function Home() {
   const homeCarouselData = [
     {
-      img: "/Assets/Projects/2-1.jpeg",
-      label: "Label for first slide",
-      caption: "Sample Text for Image One",
+      img: "/Assets/carousel1.jpeg",
+      label: ``,
+      caption: `"To create, one must first question everything."`,
     },
     {
       img: "/Assets/carousel2.jpeg",
-      label: "Label for second slide",
-      caption: "Sample Text for Image Two",
+      label: ``,
+      caption: `"We shape our buildings: thereafter they shape us."`
     },
     {
       img: "/Assets/carousel3.jpeg",
-      label: "Label for third slide",
-      caption: "Sample Text for Image Three",
+      label: ``,
+      caption: `"When we build, let us think that we build forever."`,
     },
   ];
   return (
