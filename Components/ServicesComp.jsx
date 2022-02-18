@@ -10,7 +10,7 @@ export default function ServicesComp() {
         <div className="servicesComp">
           <div className="serviceL">
             <div className="serviceImgL">
-              <img src="/Assets/service1.jpg" alt="" />
+              <img src="/Assets/service1.jpeg" alt="" />
             </div>
             <div className="servicePartitionDiv"></div>
             <div className="serviceText">
@@ -25,7 +25,7 @@ export default function ServicesComp() {
             </div>
             <div className="servicePartitionDiv"></div>
             <div className="serviceImgR">
-              <img src="/Assets/service2.JPG" alt="" />
+              <img src="/Assets/service2.jpeg" alt="" />
             </div>
           </div>
           <div className="serviceL">

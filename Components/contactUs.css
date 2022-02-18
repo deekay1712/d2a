@@ -3,7 +3,7 @@
 }
 .contactUsBanner{
     flex: 2;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/Assets/service2.JPG);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/Assets/contactUs.jpeg);
     display: flex;
     flex-direction: column;
     justify-content: center;
