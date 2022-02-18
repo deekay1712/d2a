@@ -1,6 +1,6 @@
 import CarouselHome from "../Components/CarouselHome";
 import HomeAbout from "../Components/HomeAbout";
-import HomeCards from "../Components/HomeCArds";
+import HomeCards from "../Components/HomeCards";
 
 export default function Home() {
   const homeCarouselData = [
