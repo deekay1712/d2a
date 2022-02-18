@@ -9,8 +9,16 @@ export default function DynamicPage({ projectObj }) {
   );
 }
 
-DynamicPage.getInitialProps = async (ctx) => {
-  const { id } = ctx.query;
+export const getStaticProps = async (ctx) => {
+  console.log(ctx);
+  const { id } = ctx.params;
   const projectObj = projectData.find((item) => item.id === id);
-  return { projectObj };
+  return { props: { projectObj } };
+};
+
+export const getStaticPaths = async () => {
+  return {
+    paths: projectData.map((item) => ({ params: { id: item.id } })),
+    fallback: false,
+  };
 };
