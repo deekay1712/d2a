@@ -1,0 +1,48 @@
+.aboutUsBanner{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/aboutUsBanner.jpeg');
+    min-height: calc(100vh - 60px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.aboutUsBannerContent{
+    font-size: 30px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutUsBannerHeading{
+    font-size: 30px;
+    font-weight: 500;
+}
+.aboutUsText{
+    padding: 6vw;
+}
+.aboutUsTextContent{
+    white-space: pre-wrap;
+    white-space: pre-line;
+}
+
+.aboutUsTextHeading{
+    font-size: 28px;
+    font-weight: semi-bold;
+    text-transform: uppercase;
+    margin-bottom: 9px !important;
+}
+
+.aboutUsBanner1{
+    min-height: calc((100vh - 60px) / 2);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/aboutUs1.jpeg');
+}
+.aboutUsBanner2{
+    min-height: calc((100vh - 60px) / 2);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/aboutUs2.jpeg');
+}
+
