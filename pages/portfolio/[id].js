@@ -10,7 +10,7 @@ export default function DynamicPage({ projectObj }) {
 }
 
 export const getStaticProps = async (ctx) => {
-  console.log(ctx);
+  // console.log(ctx);
   const { id } = ctx.params;
   const projectObj = projectData.find((item) => item.id === id);
   return { props: { projectObj } };

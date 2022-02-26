@@ -9,7 +9,7 @@ export default function AboutUs() {
         </div>
         <div className="aboutUsText">
             <p className="aboutUsTextHeading">Our Firm</p>
-            <p className="aboutUsTextContent">At Dream Design Architects our goal is very simple "It's your space". Our talented amd attentive team love to listen your valuable needs or suggestions which help us to comlete your dream home. Your dreams, needs and goals guide our ideas and solutions from the initial concepts to the ribbon cutting. We get to know you and establish a comfortable working relationship - fostering mutual respect and open an honest communication, while our professionals bring a wealth of architectural and interior experience ideas about what is right for you. From new construction to renovation and remodeling, our experience is vast and varried.</p>
+            <p className="aboutUsTextContent">At Dream Design Architects our goal is very simple "It's your space". Our talented and attentive team love to listen your valuable needs or suggestions which help us to complete your dream home. Your dreams, needs and goals guide our ideas and solutions from the initial concepts to the ribbon cutting. We get to know you and establish a comfortable working relationship - fostering mutual respect and open an honest communication, while our professionals bring a wealth of architectural and interior experience ideas about what is right for you. From new construction to renovation and remodeling, our experience is vast and varried.</p>
         </div>
         <div className="aboutUsBanner aboutUsBanner1">
           <div className="aboutUsBannerContent">

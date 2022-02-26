@@ -1,0 +1,21 @@
+.filterButtonWrapper{
+    font-size: 13px;
+    font-weight: 500;
+    margin: 3vw 6vw;
+    color: #56667A;
+}
+.filterButton{
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #56667A;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.filterButton:hover{
+    background-color: #56667A;
+    color: #ffffff;
+}
+.filterButtonSelected{
+    background-color: #56667A;
+    color: #ffffff;
+}

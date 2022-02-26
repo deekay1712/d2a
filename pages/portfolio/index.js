@@ -1,9 +1,9 @@
-import ProjectGallery from '../../Components/ProjectGallery';
+import ProjectGalleryFilter from '../../Components/ProjectGalleryFilter';
 
 export default function Portfolio() {
   return (
     <>
-        <ProjectGallery/>
+        <ProjectGalleryFilter/>
     </>
   );
 }
