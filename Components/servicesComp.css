@@ -1,5 +1,5 @@
 .serviceBanner{
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/carousel1.jpeg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/serviceBanner.jpeg');
     min-height: calc(100vh - 60px);
     background-attachment: fixed;
     background-position: center;
