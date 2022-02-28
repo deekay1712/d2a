@@ -6,13 +6,12 @@
 .homeAboutHeading{
     width: 100%;
     text-align: center;
-    font-size: 28px;
+    font-size: calc(22px + 0.3vw);
     margin-bottom: 10px;
 }
 .homeAboutText{
     width: 100%;
     text-align: center;
-    font-size: 15px;
-    letter-spacing: 1.5px;
+    font-size: calc(12px + 0.3vw);
     font-weight: 400;
 }

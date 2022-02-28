@@ -7,7 +7,7 @@ export default function Footer() {
   return (
   <div className='footerWrapper'>
       <div className="footerCol footerAddress">
-        <p className="footerHeading">CONTACT</p>
+        <h3 className="footerHeading">CONTACT</h3>
         <p className="footerContent">H.No. 310, Gali No. 8,<br/>
         Basement Floor, Dakshinpuri, <br/>
         Near Lal Building School,<br/>

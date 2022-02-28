@@ -8,8 +8,8 @@
     width: 100%;
     text-align: center;
     color: #ffffff;
-    font-weight: 400;
     margin-bottom: 50px;
+    font-size: calc(22px + 0.3vw);
 }
 .homeCardsWrapper{
     display: flex;
@@ -33,4 +33,5 @@
     overflow: hidden;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
+    font-size: calc(12px + 0.3vw)
 }

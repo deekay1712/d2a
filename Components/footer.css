@@ -15,8 +15,12 @@
 }
 .footerHeading{
     font-weight: 400;
-    font-weight: 16px;
+    font-size: 16px;
     margin-bottom: 5px;
+}
+.footerContent{
+    font-family: 'Montserrat', sans-serif !important; 
+    font-size: 13px;
 }
 .footerLogo{
     width: 100px;

@@ -1,6 +1,7 @@
 import CarouselHome from "../Components/CarouselHome";
 import HomeAbout from "../Components/HomeAbout";
 import HomeCards from "../Components/HomeCards";
+import HomeWhyUs from "../Components/HomeWhyUs";
 
 export default function Home() {
   const homeCarouselData = [
@@ -24,6 +25,7 @@ export default function Home() {
     <>
       <CarouselHome homeCarouselData={homeCarouselData} />
       <HomeAbout />
+      <HomeWhyUs />
       <HomeCards />
     </>
   );
