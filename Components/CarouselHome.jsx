@@ -9,7 +9,7 @@ export default function CarouselHome(props) {
             <img className="d-block w-100 carouselImage" src={item.img} alt="One"/>
             <Carousel.Caption>
               <h3>{item.label}</h3>
-              <p>{item.caption}</p>
+              <p className='homeCarouselCaption'>{item.caption}</p>
             </Carousel.Caption>
           </Carousel.Item>)
         })}

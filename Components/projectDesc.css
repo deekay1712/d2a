@@ -15,12 +15,12 @@ p {
 .projectDescHead{
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: calc(16px + 0.5vw);
     margin-bottom: 20px;
 }
 .projectDescText{
     height: 85%;
-    font-size: 16px;
+    font-size: calc(12px + 0.5vw);
     line-height: 1.5;
     overflow-y: auto;
 }

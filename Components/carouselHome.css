@@ -3,3 +3,6 @@
     height: calc(100vh - 60px);
     object-fit: cover;
 }
+.homeCarouselCaption{
+    font-size: calc(14px + 0.5vw);
+}
