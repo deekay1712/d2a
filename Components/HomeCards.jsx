@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import projectData from "../public/Assets/data"; 
-import Image from 'next/image';
 
 export default function HomeCards() {
   return (
@@ -10,7 +9,7 @@ export default function HomeCards() {
 
         <div className="homeCard">
           <div className="homeCardImgDiv">
-            <Image objectFit='cover' layout="fill" src={projectData[0].image[0]} alt="Img" />
+            <img src={projectData[0].image[0]} alt="Img" />
           </div>
           <div className='homeCardDesc'>
             <p className='homeCardDescText'>{projectData[0].description}</p>
@@ -24,7 +23,7 @@ export default function HomeCards() {
         
         <div className="homeCard">
           <div className="homeCardImgDiv">
-            <Image objectFit='cover' layout="fill" src={projectData[1].image[0]} alt="Img" />
+            <img src={projectData[1].image[0]} alt="Img" />
           </div>
           <div className='homeCardDesc'>
             <p className='homeCardDescText'>{projectData[1].description}</p>
@@ -38,7 +37,7 @@ export default function HomeCards() {
 
         <div className="homeCard">
           <div className="homeCardImgDiv">
-            <Image objectFit='cover' layout="fill" src={projectData[2].image[0]} alt="Img" />
+            <img src={projectData[2].image[0]} alt="Img" />
           </div>
           <div className='homeCardDesc'>
             <p className='homeCardDescText'>{projectData[2].description}</p>
