@@ -1,6 +1,15 @@
+@keyframes arrowSidewise{
+    0% {
+        transform: translateX(3px);
+    }
+    50% {
+        transform: translateX(9px);
+    }
+    100% {
+        transform: translateX(3px);
+    }
+}
 .homeCardsComp{
-    /* display: flex;
-    flex-direction: column; */
     padding: 6vw;
     background-color: #070707;
 }
@@ -17,6 +26,7 @@
     justify-content: space-between;
 }
 .homeCard{
+    position: relative;
     width: calc(80vw / 3);
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -27,12 +37,28 @@
     width: 100%;
 }
 .homeCardDesc{
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.homeCardDesc p{
+.homeCardDescText{
     display: -webkit-box;
     overflow: hidden;
     -webkit-line-clamp: 10;
     -webkit-box-orient: vertical;
-    font-size: calc(12px + 0.5vw)
+    font-size: calc(12px + 0.5vw);
+}
+.homeCardButton{
+    padding: 0 20px 10px 0;
+    position: absolute;
+    top: 100%;
+    transform: translate(-100%, -100%);
+    left: 100%;
+    font-weight: 500;
+    font-size: calc(8px + 0.5vw) !important;
+    display: flex;
+}
+.homeCardButton span{
+    animation: arrowSidewise 1s linear infinite;
 }
