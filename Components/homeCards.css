@@ -23,11 +23,13 @@
 }
 .homeCardsWrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .homeCard{
     position: relative;
-    width: calc(80vw / 3);
+    width: calc(82vw / 3);
+    margin: 1vw;
     background-color: #ffffff;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
@@ -45,7 +47,7 @@
 .homeCardDescText{
     display: -webkit-box;
     overflow: hidden;
-    -webkit-line-clamp: 10;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
     font-size: calc(12px + 0.5vw);
 }
@@ -61,4 +63,21 @@
 }
 .homeCardButton span{
     animation: arrowSidewise 1s linear infinite;
+}
+
+@media (max-width: 992px){
+    .homeCard{
+        width: calc(80vw / 2);
+    }
+    .homeCardImgDiv{
+        height: calc(80vw / 4);
+    }
+}
+@media (max-width: 768px){
+    .homeCard{
+        width: calc(80vw / 1);
+    }
+    .homeCardImgDiv{
+        height: calc(80vw / 2);
+    }
 }
