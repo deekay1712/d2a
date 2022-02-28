@@ -25,8 +25,8 @@ export default function Home() {
     <>
       <CarouselHome homeCarouselData={homeCarouselData} />
       <HomeAbout />
-      <HomeWhyUs />
       <HomeCards />
+      <HomeWhyUs />
     </>
   );
 }
