@@ -2,9 +2,9 @@
     background-color: rgba(86, 102, 122, 0.1);
     padding: 0 6vw 6vw 6vw;
     color: #070707;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; */
 }
 .homeWhyUsHeading{
     width: 100%;
@@ -18,6 +18,9 @@
     font-size: calc(12px + 0.5vw);
     font-weight: 400;
 }
+.homeWhyUsPoints{
+    margin-bottom: 3vw;
+}
 .homeWhyUsPoint{
     display: flex;
     margin-bottom: 10px;
@@ -28,4 +31,17 @@
 .homeWhyUsPointText{
     font-size: calc(12px + 0.5vw);
     padding-left: 15px;
+}
+.homeWhyUsButton{
+    border: 1px solid #070707;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: min-content;
+}
+.homeWhyUsButton:hover{
+    background-color: #070707;
+    color: #ffffff !important;
 }

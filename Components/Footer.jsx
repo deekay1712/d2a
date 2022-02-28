@@ -1,6 +1,3 @@
-// import './footer.css';
-// import { Link } from "react-router-dom";
-// import LogoWhite from "/Assets/LogoWhite.png";
 import Link from 'next/link';
 
 export default function Footer() {

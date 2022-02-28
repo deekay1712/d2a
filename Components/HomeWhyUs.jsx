@@ -1,4 +1,4 @@
-import React from 'react'
+import Link from 'next/link';
 
 export default function HomeWhyUs() {
   return (
@@ -67,8 +67,12 @@ export default function HomeWhyUs() {
               <p>Attention to details - we don't overlook even the smallest flaws in execution.</p>
             </div>
           </div>
-
         </div>
+        <Link href="/about-us">
+          <a className="homeWhyUsButton">
+            Learn More About Us
+          </a>
+        </Link>
     </div>
   )
 }
