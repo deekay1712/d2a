@@ -19,19 +19,17 @@
     justify-content: center;
 }
 .aboutUsBannerHeading{
-    font-size: 30px;
-    font-weight: 500;
+    font-size: calc(22px + 0.3vw);
 }
 .aboutUsText{
     padding: 6vw;
 }
 .aboutUsTextContent{
-    white-space: pre-wrap;
-    white-space: pre-line;
+    font-size: calc(12px + 0.3vw);
 }
 
 .aboutUsTextHeading{
-    font-size: 28px;
+    font-size: calc(22px + 0.3vw);
     font-weight: semi-bold;
     text-transform: uppercase;
     margin-bottom: 9px !important;

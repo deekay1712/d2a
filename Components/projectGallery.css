@@ -50,12 +50,12 @@
     border-radius: 0 0 5px 5px;
 }
 .projectCardName{
-    font-size: calc(8px + 1vw);
-    font-weight: 700;
+    font-size: calc(12px + 0.3vw);
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .projectCardAddress{
-    font-size: calc(8px + 0.8vw);
-    font-weight: 400;
+    font-size: calc(12px + 0.3vw);
 }
 @media (max-width: 1200px){
     .projectCardLabel{

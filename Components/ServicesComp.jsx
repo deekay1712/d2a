@@ -3,7 +3,7 @@ export default function ServicesComp() {
     <div className="servicesCompWrapper">
         <div className="serviceBanner">
           <div className="serviceBannerContent">
-            <p>Services</p>
+            <h1 className="serviceBannerHeading">Services</h1>
             <span>&#8595;</span>
           </div>
         </div>
@@ -14,13 +14,13 @@ export default function ServicesComp() {
             </div>
             <div className="servicePartitionDiv"></div>
             <div className="serviceText">
-              <p className="serviceTextHeadingL">Architecture</p>
+              <h2 className="serviceTextHeadingL">Architecture</h2>
               <p className="serviceTextContentL">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nihil eum nisi! Magnam qui cum nesciunt ut necessitatibus tempora facere quis. Ut labore error et recusandae aut autem, quia id ea non itaque repellat, accusantium adipisci unde ad vero quidem omnis, nihil commodi nulla beatae suscipit? Reprehenderit fugiat similique saepe!</p>
             </div>
           </div>
           <div className="serviceR">
             <div className="serviceText">
-              <p className="serviceTextHeadingR">Interior Designing</p>
+              <h2 className="serviceTextHeadingR">Interior Designing</h2>
               <p className="serviceTextContentR">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nihil eum nisi! Magnam qui cum nesciunt ut necessitatibus tempora facere quis. Ut labore error et recusandae aut autem, quia id ea non itaque repellat, accusantium adipisci unde ad vero quidem omnis, nihil commodi nulla beatae suscipit? Reprehenderit fugiat similique saepe!</p>
             </div>
             <div className="servicePartitionDiv"></div>
@@ -34,7 +34,7 @@ export default function ServicesComp() {
             </div>
             <div className="servicePartitionDiv"></div>
             <div className="serviceText">
-              <p className="serviceTextHeadingL">Turnkey Projects</p>
+              <h2 className="serviceTextHeadingL">Turnkey Projects</h2>
               <p className="serviceTextContentL">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nihil eum nisi! Magnam qui cum nesciunt ut necessitatibus tempora facere quis. Ut labore error et recusandae aut autem, quia id ea non itaque repellat, accusantium adipisci unde ad vero quidem omnis, nihil commodi nulla beatae suscipit? Reprehenderit fugiat similique saepe!</p>
             </div>
           </div>

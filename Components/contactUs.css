@@ -12,12 +12,11 @@
     height: calc(100vh - 60px);
 }
 .contactUsBannerHeading{
-    font-size: 32px;
+    font-size: calc(22px + 0.3vw);
 }
 .contactUsBannerSubHeading{
-    font-size: 18px;
+    font-size: calc(16px + 0.3vw);
     font-weight: 300;
-    letter-spacing: 1.5px;
 }
 .contactUsFormWrapper{
     flex: 1;
