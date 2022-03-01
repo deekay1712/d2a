@@ -1,5 +1,6 @@
 .projectGalleryWrapper{
     padding: 0 5vw 5vw 5vw;
+    min-height: calc(100vh - 60px - 6vwg);
 }
 .projectCards{
     display: flex;

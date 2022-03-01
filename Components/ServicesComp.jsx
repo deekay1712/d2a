@@ -15,13 +15,13 @@ export default function ServicesComp() {
             <div className="servicePartitionDiv"></div>
             <div className="serviceText">
               <h2 className="serviceTextHeadingL">Architecture</h2>
-              <p className="serviceTextContentL">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nihil eum nisi! Magnam qui cum nesciunt ut necessitatibus tempora facere quis. Ut labore error et recusandae aut autem, quia id ea non itaque repellat, accusantium adipisci unde ad vero quidem omnis, nihil commodi nulla beatae suscipit? Reprehenderit fugiat similique saepe!</p>
+              <p className="serviceTextContentL">Architecture is not just about making impressive buildings on paper but more importantly to deliver projects which are functional, safe, easy to maintain, sustainable and long lasting. We have been engaging with Architecture in a holistic manner since the inception of the firm and have allied services like structure, engineering, project management and green building as an integral part of the organisation.</p>
             </div>
           </div>
           <div className="serviceR">
             <div className="serviceText">
               <h2 className="serviceTextHeadingR">Interior Designing</h2>
-              <p className="serviceTextContentR">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nihil eum nisi! Magnam qui cum nesciunt ut necessitatibus tempora facere quis. Ut labore error et recusandae aut autem, quia id ea non itaque repellat, accusantium adipisci unde ad vero quidem omnis, nihil commodi nulla beatae suscipit? Reprehenderit fugiat similique saepe!</p>
+              <p className="serviceTextContentR">We follow a deeply contextual approach to our work and combine this with a strong focus on building the tactile and sensory qualities and experiential nature of the space through an in-depth understanding of methodologies, materials and storytelling.</p>
             </div>
             <div className="servicePartitionDiv"></div>
             <div className="serviceImgR">
@@ -35,7 +35,7 @@ export default function ServicesComp() {
             <div className="servicePartitionDiv"></div>
             <div className="serviceText">
               <h2 className="serviceTextHeadingL">Turnkey Projects</h2>
-              <p className="serviceTextContentL">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus nihil eum nisi! Magnam qui cum nesciunt ut necessitatibus tempora facere quis. Ut labore error et recusandae aut autem, quia id ea non itaque repellat, accusantium adipisci unde ad vero quidem omnis, nihil commodi nulla beatae suscipit? Reprehenderit fugiat similique saepe!</p>
+              <p className="serviceTextContentL">D2A offers consultancy and project management services on turnkey projects basis in which it provides a wide range of services including planning, procurement and furnishing of building along with other necessary services.</p>
             </div>
           </div>
         </div>
