@@ -13,7 +13,9 @@ export default function Navbar() {
     return (
         <div className="navbarWrapper">
             <div className='navbarLogo'>
-                <img src="/Assets/LogoBlack.png" alt="" />
+                <Link href="/" >
+                    <a><img className='navbarLogoImg' src="/Assets/LogoBlack.png" alt="" /></a>
+                </Link>
             </div>
             <ul className={`navbarElements ${sideBar? '' : 'sideBarHide'}`}>
                 <li onClick = {() => {setToggle(false); setSideBar(false)}} className={`navItem ${sideBar? '' : 'navItemSlide'}`}><Link href="/" ><a>HOME</a></Link></li>
