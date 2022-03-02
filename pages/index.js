@@ -33,7 +33,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="HOME - Dream Design Architects" />
         <meta property="og:description" content="Dream Design Architects is a design firm based in the heart of the city of DELHI. We are a team of creative and experienced professionals who are passionate about creating beautiful spaces." />
-        <meta property="og:url" content="https://d2a.vercel.app/" />
+        <meta property="og:url" content="https://dreamdesignarchitects.com/" />
         <meta property="og:site_name" content="Dream Design Architects" />
         <meta property="og:image" content="/Assets/carousel1.jpeg" />
         <meta property="og:image:secure_url" content="/Assets/carousel1.jpeg" />
