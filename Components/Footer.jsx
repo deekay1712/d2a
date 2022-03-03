@@ -5,7 +5,7 @@ export default function Footer() {
   <div className='footerWrapper'>
       <div className="footerCol footerAddress">
         <h3 className="footerHeading">CONTACT</h3>
-        <p className="footerContent">H.No. 310,<br/>
+        <p className="footerContent">H-310,<br/>
         Basement Floor, Dakshinpuri, <br/>
         Delhi-110068</p>
       </div>
