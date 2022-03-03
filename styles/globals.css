@@ -19,10 +19,10 @@ body {
   padding: 0;
   margin: 0;
 }
-h1, h2, h3, a{
+h1, h2, h3{
   font-family: 'Abril Fatface', cursive, sans-serif;
 }
-p{
+p, a{
   font-family: 'Fredoka', serif;
 }
 p, ul{
