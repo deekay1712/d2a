@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import SuperFooter from "./SuperFooter";
 
 const Layout = ({ children }) => {
   return (
@@ -8,6 +9,7 @@ const Layout = ({ children }) => {
       <Navbar />
       {children}
       <Footer />
+      <SuperFooter />
     </>
   );
 };

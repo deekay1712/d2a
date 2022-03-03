@@ -16,7 +16,7 @@ export default function ContactUs() {
     <div className="contactUsWrapper">
         <div className="contactUsBanner">
             <h1 className="contactUsBannerHeading">Contact Dream Design Architects</h1>
-            <h2 className="contactUsBannerSubHeading">Use the form to get in touch with our office. We will do our best to getback within 48 hours</h2>
+            <p className="contactUsBannerSubHeading">Use the form to get in touch with our office. We will do our best to getback within 48 hours</p>
         </div>
         <div className="contactUsFormWrapper">
             <form className="contactUsForm" ref={form} onSubmit={sendEmail}>

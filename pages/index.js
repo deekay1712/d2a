@@ -7,6 +7,11 @@ import Head from 'next/head'
 export default function Home() {
   const homeCarouselData = [
     {
+      img: "/Assets/carousel0.jpeg",
+      label: ``,
+      caption: `First visit to us is free of charge.`,
+    },
+    {
       img: "/Assets/carousel1.jpeg",
       label: ``,
       caption: `"To create, one must first question everything."`,

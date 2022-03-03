@@ -47,9 +47,9 @@
 }
 
 @media (max-width: 992px) {
-    .footerAddress{
+    /* .footerAddress{
         display: none;
-    }
+    } */
     .footerWrapper{
         flex-direction: column;
     }

@@ -1,0 +1,42 @@
+.superFooterWrapper{
+    font-size: 12px;
+    display: flex;
+    padding: 8px 6vw 8px 6vw;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #56667A;
+    color: #ffffff;
+}
+.superFooterWrapperText a{
+    font-family: 'Fredoka', serif !important;
+}
+.superFooterSocialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.superFooterSocialIcons a{
+    display: block;
+    background-color: #ffffff;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.socialMediaIcons{
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+@media (max-width: 768px){
+    .superFooterWrapper{
+        flex-direction: column;
+    }
+    .superFooterWrapperText{
+        flex-direction: column;
+    }
+}
