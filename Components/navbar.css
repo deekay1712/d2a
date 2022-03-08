@@ -12,9 +12,18 @@
     height: 60px;
     user-select: none;
 }
+.navbarLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .navbarLogoImg{
     width: 50px;
     margin-left: 10px;
+}
+.navbarLogoText{
+    font-size: calc(10px + 0.5vw);
+    margin-left: 15px;
 }
 .navbarElements {
     display: flex;
