@@ -9,7 +9,7 @@ export default function Home() {
     {
       img: "/Assets/carousel0.jpeg",
       label: ``,
-      caption: `First visit to us is free of charge.`,
+      caption: `Our first site visit is always free of charge.`,
     },
     {
       img: "/Assets/carousel1.jpeg",

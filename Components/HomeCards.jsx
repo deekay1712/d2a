@@ -37,12 +37,12 @@ export default function HomeCards() {
 
         <div className="homeCard">
           <div className="homeCardImgDiv">
-            <img src={projectData[19].image[0]} alt="Img" />
+            <img src={projectData[18].image[0]} alt="Img" />
           </div>
           <div className='homeCardDesc'>
-            <p className='homeCardDescText'>{projectData[19].description}</p>
+            <p className='homeCardDescText'>{projectData[18].description}</p>
           </div>
-          <Link href={`/portfolio/${projectData[19].id}`}>
+          <Link href={`/portfolio/${projectData[18].id}`}>
             <a className="homeCardButton">
               More <span>&#8594;</span>
             </a>
