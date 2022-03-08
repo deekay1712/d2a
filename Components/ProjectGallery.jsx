@@ -14,14 +14,14 @@ export default function ProjectGallery(props) {
                     <img src={item.image[0]} alt={item.name}/>
                     <Link href={`/portfolio/${item.id}`} passHref>
                       <div className="projectCardLabel">
-                        <h3 className="projectCardName">{item.name}</h3>
-                        <h3 className="projectCardAddress">{item.address}</h3>
+                        <p className="projectCardName">{item.name}</p>
+                        <p className="projectCardAddress">{item.address}</p>
                       </div>
                     </Link>
                   </div>
                   <div className="projectCardLabelMobile">
-                    <h3 className="projectCardName">{item.name}</h3>
-                    <h3 className="projectCardAddress">{item.address}</h3>
+                    <p className="projectCardName">{item.name}</p>
+                    <p className="projectCardAddress">{item.address}</p>
                   </div>
                 </div>
               </Link>
