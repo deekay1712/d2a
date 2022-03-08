@@ -4,5 +4,5 @@
 .carouselProjectImage{
     width: 100%;
     height: calc(100vh - 60px);
-    object-fit: cover !important;
+    object-fit: contain !important;
 }
