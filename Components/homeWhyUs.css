@@ -37,8 +37,16 @@
     text-transform: uppercase;
     cursor: pointer;
     height: min-content;
+    width: 203px;
+    display: block;
 }
 .homeWhyUsButton:hover{
     background-color: #070707;
     color: #ffffff !important;
+}
+
+@media (max-width: 768px){
+    .homeCard {
+        margin-bottom: 10px;
+    }
 }

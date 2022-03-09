@@ -69,9 +69,11 @@ export default function HomeWhyUs() {
           </div>
         </div>
         <Link href="/about-us">
-          <a className="homeWhyUsButton">
-            Learn More About Us
-          </a>
+          <div className="homeWhyUsButton">
+            <a>
+              Learn More About Us
+            </a>
+          </div>
         </Link>
     </div>
   )

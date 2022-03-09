@@ -21,7 +21,7 @@ export default function ProjectGallery(props) {
                   </div>
                   <div className="projectCardLabelMobile">
                     <p className="projectCardName">{item.name}</p>
-                    <p className="projectCardAddress">{item.address}</p>
+                    {/* <p className="projectCardAddress">{item.address}</p> */}
                   </div>
                 </div>
               </Link>

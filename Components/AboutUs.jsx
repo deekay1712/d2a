@@ -30,7 +30,7 @@ export default function AboutUs() {
         </div>
         <div className="aboutUsText">
             <p className="aboutUsTextContent">"Study nature, love nature, stay close to nature. It will never fail you." These words are said by the great architect Frank Lloyd and we are following these terms in our designs. <br/>
-            If green design is important to you we will make it a priority. D2A understands the importance of environmental stewardship in project design. House owner and designers continue to be inspired to design houses that are  more earth-friendly. Our approach often focuses on energy efficiency, as we use enhanced insulating material and install advanced heating and cooling system. We add solar panels to rooftops and buld wind farms to generate electricity.
+            If green design is important to you we will make it a priority. D2A understands the importance of environmental stewardship in project design. House owner and designers continue to be inspired to design houses that are  more earth-friendly. Our approach often focuses on energy efficiency, as we use enhanced insulating material and install advanced heating and cooling system. We add solar panels to rooftops and build wind farms to generate electricity.
             </p>
         </div>
     </div>
