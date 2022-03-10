@@ -15,7 +15,7 @@ export default function ServicesComp() {
             <div className="servicePartitionDiv"></div>
             <div className="serviceText">
               <h2 className="serviceTextHeadingL">Architecture</h2>
-              <p className="serviceTextContentL">Architecture is not just about making impressive buildings on paper but more importantly to deliver projects which are functional, safe, easy to maintain, sustainable and long lasting. We have been engaging with Architecture in a holistic manner since the inception of the firm and have allied services like structure, engineering, project management and green building as an integral part of the organisation.</p>
+              <p className="serviceTextContentL">Architecture is not just about making impressive buildings on paper but more importantly to deliver projects which are functional, safe, easy to maintain, sustainable and long lasting. We have been engaging with Architecture in a holistic manner since the inception of the firm and have allied services like structure, engineering, project management and green building as an integral part of the organization.</p>
             </div>
           </div>
           <div className="serviceR">

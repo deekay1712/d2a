@@ -17,6 +17,11 @@ export default function Home() {
       caption: `"Convert your dreams into reality with D2A"`,
     },
     {
+      img: "/Assets/carousel2.jpeg",
+      label: ``,
+      caption: `"We are Dream Designers"`,
+    },
+    {
       img: "/Assets/carousel3.jpeg",
       label: ``,
       caption: `"We shape our buildings: thereafter they shape us."`
