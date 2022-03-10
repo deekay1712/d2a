@@ -9,20 +9,20 @@ export default function Home() {
     {
       img: "/Assets/carousel0.jpeg",
       label: ``,
-      caption: `Our first site visit is always free of charge.`,
+      caption: `Our first site visit is always free of cost.`,
     },
     {
       img: "/Assets/carousel1.jpeg",
       label: ``,
-      caption: `"To create, one must first question everything."`,
+      caption: `"Convert your dreams into reality with D2A"`,
     },
     {
-      img: "/Assets/carousel2.jpeg",
+      img: "/Assets/carousel3.jpeg",
       label: ``,
       caption: `"We shape our buildings: thereafter they shape us."`
     },
     {
-      img: "/Assets/carousel3.jpeg",
+      img: "/Assets/carousel4.jpeg",
       label: ``,
       caption: `"When we build, let us think that we build forever."`,
     },
