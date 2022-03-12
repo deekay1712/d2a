@@ -11,6 +11,7 @@ export default function ContactUs() {
         }, (error) => {
             console.log(error.text);
       });
+      window.location.reload();
     }
   return (
     <div className="contactUsWrapper">
