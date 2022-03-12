@@ -64,7 +64,7 @@ export default function HomeWhyUs() {
               <img src="/Assets/diamond.png" alt="" />
             </div>
             <div className="homeWhyUsPointText">
-              <p>Attention to details - we don't overlook even the smallest flaws in execution.</p>
+              <p>Attention to details - we don&#39;t overlook even the smallest flaws in execution.</p>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ export default function AboutUs() {
         </div>
         <div className="aboutUsText">
             <h1 className="aboutUsTextHeading">Our Firm</h1>
-            <p className="aboutUsTextContent">At Dream Design Architects our goal is very simple "It's your space". Our talented and attentive team love to listen your valuable needs or suggestions which help us to complete your dream home. Your dreams, needs and goals guide our ideas and solutions from the initial concepts to the ribbon cutting. We get to know you and establish a comfortable working relationship - fostering mutual respect and open an honest communication, while our professionals bring a wealth of architectural and interior experience ideas about what is right for you. From new construction to renovation and remodeling, our experience is vast and varied.</p>
+            <p className="aboutUsTextContent">At Dream Design Architects our goal is very simple &#8220;It&#39;s your space&#8221;. Our talented and attentive team love to listen your valuable needs or suggestions which help us to complete your dream home. Your dreams, needs and goals guide our ideas and solutions from the initial concepts to the ribbon cutting. We get to know you and establish a comfortable working relationship - fostering mutual respect and open an honest communication, while our professionals bring a wealth of architectural and interior experience ideas about what is right for you. From new construction to renovation and remodeling, our experience is vast and varied.</p>
         </div>
         <div className="aboutUsBanner aboutUsBanner1">
           <div className="aboutUsBannerContent">
@@ -29,7 +29,7 @@ export default function AboutUs() {
           </div>
         </div>
         <div className="aboutUsText">
-            <p className="aboutUsTextContent">"Study nature, love nature, stay close to nature. It will never fail you." These words are said by the great architect Frank Lloyd and we are following these terms in our designs. <br/>
+            <p className="aboutUsTextContent">&#8220;Study nature, love nature, stay close to nature. It will never fail you.&#8221; These words are said by the great architect Frank Lloyd and we are following these terms in our designs. <br/>
             If green design is important to you we will make it a priority. D2A understands the importance of environmental stewardship in project design. House owner and designers continue to be inspired to design houses that are  more earth-friendly. Our approach often focuses on energy efficiency, as we use enhanced insulating material and install advanced heating and cooling system. We add solar panels to rooftops and build wind farms to generate electricity.
             </p>
         </div>

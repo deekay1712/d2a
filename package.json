@@ -5,7 +5,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "exp": "next export -o loda",
+    "d": "yarn build && yarn exp"
   },
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
