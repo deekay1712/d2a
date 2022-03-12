@@ -7,7 +7,7 @@
     "start": "next start",
     "lint": "next lint",
     "export": "next export",
-    "exp": "next export -o loda",
+    "exp": "next export -o nextStatic",
     "d": "yarn build && yarn exp"
   },
   "dependencies": {
