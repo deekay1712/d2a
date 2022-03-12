@@ -22,15 +22,15 @@ export default function ContactUs() {
         <div className="contactUsFormWrapper">
             <form className="contactUsForm" ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
-                <input type="text" name="user_name" />
+                <input type="text" name="user_name" required/>
                 <label>Contact No.</label>
-                <input type="text" name="user_mobile" />
+                <input type="text" name="user_mobile" required/>
                 <label>Email</label>
-                <input type="email" name="user_email" />
+                <input type="email" name="user_email" required/>
                 <label>Subject</label>
-                <input type="text" name="user_subject" />
+                <input type="text" name="user_subject" required/>
                 <label>Message</label>
-                <textarea className='contactUsFormMessage' name="message" />
+                <textarea className='contactUsFormMessage' name="message" required/>
                 <input className='contactUsFormButton' type="submit" value="Send" />
             </form>
         </div>
