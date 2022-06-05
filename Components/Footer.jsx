@@ -10,7 +10,7 @@ export default function Footer() {
         Delhi-110068</p>
       </div>
       <div className="footerCol">
-        <p className="footerContent">architect.d2a@gmail.com <br/>
+        <p className="footerContent">admin@dreamdesignarchitects.com<br/>
         +91-9990632664 <br/> 
         </p>
       </div>
