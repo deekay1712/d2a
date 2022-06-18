@@ -12,6 +12,11 @@ export default function Home() {
       caption: `Our first site visit is always free of cost.`,
     },
     {
+      img: "/Assets/carousel5.jpeg",
+      label: ``,
+      caption: `Drafting Services and Sketchup Modeling.`,
+    },
+    {
       img: "/Assets/carousel1.jpeg",
       label: ``,
       caption: `"Convert your dreams into reality with D2A"`,
