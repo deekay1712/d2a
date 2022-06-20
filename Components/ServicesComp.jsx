@@ -35,7 +35,7 @@ export default function ServicesComp() {
             <div className="servicePartitionDiv"></div>
             <div className="serviceText">
               <h2 className="serviceTextHeadingL">2D & 3D Drafting & Modeling</h2>
-              <p className="serviceTextContentL">The D2A delivers wide-ranging professional, Quality and Cost efficient timely delivery 2D Drafting services to Architects, Interior Designers, General Contractors and Woodworkers. <br/>We are a team of talented and professional Architects & Interior Designers to provide the best services with tight deadlines without compromising on the drawings quality. Our technical team utilizes AutoCAD (2D) and Sketchup (3D) programmes to maintain accuracy in drawings and providing 4 rounds of Markups/Readlines.</p>
+              <p className="serviceTextContentL">The D2A delivers wide-ranging professional, Quality and Cost efficient timely delivery 2D Drafting services to Architects, Interior Designers, General Contractors and Woodworkers. <br/>We are a team of talented and professional Architects & Interior Designers to provide the best services with tight deadlines without compromising on the drawings quality. Our technical team utilizes AutoCAD (2D) and Sketchup (3D) programs to maintain accuracy in drawings and providing 4 rounds of Markups/Redlines.</p>
             </div>
           </div>
           <div className="serviceR">
