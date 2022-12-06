@@ -24,7 +24,7 @@ export default function Home() {
     {
       img: "/Assets/carousel2.jpeg",
       label: ``,
-      caption: `"We are Dream Designers"`,
+      caption: `"We are D2A Atelier"`,
     },
     {
       img: "/Assets/carousel3.jpeg",
