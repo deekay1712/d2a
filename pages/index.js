@@ -49,7 +49,7 @@ export default function Home() {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="D2A Atelier is a design firm based in the heart of the city of DELHI. We are a team of creative and experienced professionals who are passionate about creating beautiful spaces." />
-        <link rel="canonical" href="https://dreamdesignarchitects.com/" />
+        <link rel="canonical" href="https://www.d2aatelier.com/" />
         <meta name="googlebot" content="notranslate" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
