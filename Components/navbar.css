@@ -107,6 +107,9 @@
     .navbarWrapper {
         font-size: calc(10px + 0.15vw);
     }
+    .navbarLogoImg{
+        display: none;
+    }
     .sideDrawer{
         display: block !important;
     }
