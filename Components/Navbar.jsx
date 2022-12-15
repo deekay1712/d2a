@@ -14,9 +14,11 @@ export default function Navbar() {
         <div className="navbarWrapper">
             <div className='navbarLogo'>
                 <Link href="/" >
-                    <a><img className='navbarLogoImg' src="/Assets/LogoBlack.png" alt="" /></a>
+                    {/* <a><img className='navbarLogoImg' src="/Assets/LogoBlack.png" alt="" /></a> */}
+                    <a>
+                        <span className='navbarLogoText'>D2A Atelier</span>
+                    </a>
                 </Link>
-                <span className='navbarLogoText'>D2A Atelier</span>
             </div>
             <ul className={`navbarElements ${sideBar? '' : 'sideBarHide'}`}>
                 <li onClick = {() => {setToggle(false); setSideBar(false)}} className={`navItem ${sideBar? '' : 'navItemSlide'}`}><Link href="/" ><a>HOME</a></Link></li>
