@@ -1,4 +1,5 @@
 import CarouselHome from "../Components/CarouselHome";
+import HomeServices from "../Components/HomeServices";
 import LandingPage from "../Components/LandingPage";
 import HomeAbout from "../Components/HomeAbout";
 import HomeCards from "../Components/HomeCards";
@@ -66,6 +67,7 @@ export default function Home() {
       </Head>
       <LandingPage />
       {/* <CarouselHome homeCarouselData={homeCarouselData} /> */}
+      <HomeServices />
       <HomeAbout />
       <HomeCards />
       <HomeWhyUs />

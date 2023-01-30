@@ -1,0 +1,45 @@
+.homeServicesWrapper{
+    background-color: rgba(86, 102, 122, 0.1);
+    padding: 6vw;
+    color: #070707;
+}
+.homeServicesHeading{
+    width: 100%;
+    text-align: center;
+    font-size: calc(22px + 0.5vw);
+    margin-bottom: 20px;
+}
+.homeServicesCards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.homeServicesCard{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.homeServicesCardTitle{
+    font-size: calc(13px + 0.5vw);
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.homeServicesCardDescription{
+    font-size: calc(12px + 0.5vw);
+    padding-bottom: 10px;
+    text-align: center;
+}
+.homeServicesCardButton a{
+    font-size: calc(10px + 0.5vw);
+    font-weight: 500;
+}
