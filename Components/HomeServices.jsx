@@ -28,19 +28,8 @@ export default function HomeServices() {
                     </div>
                 </div>
                 <div className="homeServicesCard">
-                    <h2 className="homeServicesCardTitle">Drafting And Modelling</h2>
-                    <p className="homeServicesCardDescription">Our 2D & 3D drafting and modelling services bring your vision to life with precision.</p>
-                    <div className="homeServicesCardButton">
-                        <Link href="/services">
-                            <a>
-                                Know More
-                            </a>
-                        </Link>
-                    </div>
-                </div>
-                <div className="homeServicesCard">
-                    <h2 className="homeServicesCardTitle">Turnkey Projects</h2>
-                    <p className="homeServicesCardDescription">From design to completion, trust us to deliver seamless turnkey projects.</p>
+                    <h2 className="homeServicesCardTitle">Landscaping</h2>
+                    <p className="homeServicesCardDescription">Enhance the beauty of your outdoor spaces with D2A Atelier&#39;s expert landscaping services.</p>
                     <div className="homeServicesCardButton">
                         <Link href="/services">
                             <a>
