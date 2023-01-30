@@ -4,7 +4,7 @@ export default function LandingPage() {
     return (
         <div className="landingPageWrapper">
             <div className="landingPage">
-                <p className="landingPageTitle">Discover the essence of design and creativity at D2A Atelier.</p>
+                <p className="landingPageTitle">D2A Atelier consists the highest caliber of design and drafting services.</p>
                 <div className="landingPageButtons">
                     <div className="landingPageButton landingPageButtonOutline">
                         <Link href="/about-us">
