@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: transparent;
     position: sticky;
     top: 0px;
     z-index: 999;
@@ -11,6 +11,11 @@
     letter-spacing: 1px;
     height: 60px;
     user-select: none;
+    transition: all 0.6s ease-in-out;
+}
+.navBarWhite{
+    background-color: white;
+    color: black;
 }
 .navbarLogo{
     display: flex;

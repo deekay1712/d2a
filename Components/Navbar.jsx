@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
-export default function Navbar() {
+export default function Navbar({navColor}) {
+    // console.log('navColor : ',navColor);
     const router = useRouter();
     const [toggle,setToggle] = useState(false);
     const [sideBar,setSideBar] = useState(false);
@@ -11,7 +12,7 @@ export default function Navbar() {
         
     },[router.pathname])
     return (
-        <div className="navbarWrapper">
+        <div className={`navbarWrapper ${navColor?'navBarWhite': ''}`}>
             <div className='navbarLogo'>
                 <Link href="/" >
                     {/* <a><img className='navbarLogoImg' src="/Assets/LogoBlack.png" alt="" /></a> */}
