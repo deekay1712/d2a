@@ -1,4 +1,5 @@
 import CarouselHome from "../Components/CarouselHome";
+import LandingPage from "../Components/LandingPage";
 import HomeAbout from "../Components/HomeAbout";
 import HomeCards from "../Components/HomeCards";
 import HomeWhyUs from "../Components/HomeWhyUs";
@@ -63,7 +64,8 @@ export default function Home() {
         <meta name="twitter:title" content="HOME - D2A Atelier" />
         <meta name="twitter:image" content="/Assets/carousel1.jpeg" />
       </Head>
-      <CarouselHome homeCarouselData={homeCarouselData} />
+      <LandingPage />
+      {/* <CarouselHome homeCarouselData={homeCarouselData} /> */}
       <HomeAbout />
       <HomeCards />
       <HomeWhyUs />

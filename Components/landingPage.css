@@ -1,0 +1,78 @@
+.landingPageWrapper{
+    height: 100vh;
+    width: 100%;
+    background: url(/Assets/landingPage.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: -60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.landingPage{
+    background: rgba(0,0,0,0.5);
+    margin-left: 150px;
+    padding: 3vw;
+    width: calc(600px + 0.5vw);
+    justify-content: center;
+    align-items: center;
+}
+.landingPageTitle {
+    font-size: calc(36px + 0.5vw);
+    color: #fff;
+}
+.landingPageButtons{
+    margin-top: 3vw;
+    display: flex;
+}
+.landingPageButton{
+    border-radius: 50px;
+    font-size: calc(12px + 0.5vw);
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    font-weight: 400;
+    cursor: pointer;
+    height: min-content;
+    width: fit-content;
+}
+.landingPageButtonOutline{
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+.landingPageButtonOutline:hover{
+    background: #ffffff;
+    color: #000000;
+}
+.landingPageButtonFill{
+    background: #ffffff;
+    border: 2px solid #ffffff;
+
+    color: #000000;
+}
+.landingPageButtonFill:hover{
+    background: #bcbaba;
+    border: 2px solid #bcbaba;
+}
+
+@media (max-width: 1080px) {
+    .landingPageWrapper{
+        align-items: center;
+    }
+    .landingPage{
+        margin-left: 0px;
+        width: fit-content;
+    }
+    .landingPageTitle {
+        font-size: calc(24px + 0.5vw);
+    }
+    .landingPageButtons{
+        flex-direction: column;
+    }
+
+    .landingPageButtonFill{
+        margin-top: 1.5vw;
+    }
+}

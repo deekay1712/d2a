@@ -7,12 +7,16 @@ export default function Navbar({navColor}) {
     const router = useRouter();
     const [toggle,setToggle] = useState(false);
     const [sideBar,setSideBar] = useState(false);
+    const [isHome,setIsHome] = useState(true);
     useEffect(() => {
-        console.log('path : ',router.pathname);
-        
-    },[router.pathname])
+        if(router.pathname === '/'){
+            setIsHome(true);
+        }else{
+            setIsHome(false);
+        }
+    }, [router.pathname])
     return (
-        <div className={`navbarWrapper ${navColor?'navBarWhite': ''}`}>
+        <div className={`navbarWrapper ${navColor||(!isHome)?'navBarWhite': ''}`}>
             <div className='navbarLogo'>
                 <Link href="/" >
                     {/* <a><img className='navbarLogoImg' src="/Assets/LogoBlack.png" alt="" /></a> */}
