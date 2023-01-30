@@ -33,7 +33,7 @@
 }
 .serviceImgL, .serviceImgR{
     flex: 1;
-    align-items: center;
+    /* align-items: center; */
 }
 .serviceImgL img, .serviceImgR img{
     object-fit: cover;
@@ -100,7 +100,8 @@
     .servicePartitionDiv{
         display: none;
     }
-    .serviceTextHeadingR, .serviceTextContentR{
+    .homeAboutSectionHeading{
+        width: 100%;
         text-align: left;
     }
 }
