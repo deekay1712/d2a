@@ -7,7 +7,7 @@ export default function HomeAbout() {
 
         <div className="homeAboutSection1">
           <div className="homeAboutSectionLeft">
-            <img className="homeAboutSectionImg" src="/Assets/service1.jpeg" alt="" />
+            <img className="homeAboutSectionImg" src="/Assets/homeAbout1.jpg" alt="" />
           </div>
           <div className="homeAboutSectionMiddle"></div>
           <div className="homeAboutSectionRight">
@@ -18,12 +18,23 @@ export default function HomeAbout() {
 
         <div className="homeAboutSection2">
           <div className="homeAboutSectionLeft">
-            <h2 className="homeAboutSectionHeading">Who are we?</h2>
-            <p className="homeAboutSectionText" style={{textAlign: "right"}}>D2A Atelier is a team of architects and designers driven to create exceptional spaces. With diverse expertise, we bring unique solutions and collaborate to meet clients' needs while pushing boundaries in design and technology. Our passion is guided by values of innovation, sustainability, and collaboration.</p>
+            <h2 className="homeAboutSectionHeading">Who are we ?</h2>
+            <p className="homeAboutSectionText">D2A Atelier is a team of architects and designers driven to create exceptional spaces. With diverse expertise, we bring unique solutions and collaborate to meet clients' needs while pushing boundaries in design and technology. Our passion is guided by values of innovation, sustainability, and collaboration.</p>
           </div>
           <div className="homeAboutSectionMiddle"></div>
           <div className="homeAboutSectionRight">
-            <img className="homeAboutSectionImg" src="/Assets/service2.jpeg" alt="" />
+            <img className="homeAboutSectionImg" src="/Assets/homeAbout2.jpg" alt="" />
+          </div>
+        </div>
+
+        <div className="homeAboutSection1">
+          <div className="homeAboutSectionLeft">
+            <img className="homeAboutSectionImg" src="/Assets/homeAbout3.jpg" alt="" />
+            </div>
+          <div className="homeAboutSectionMiddle"></div>
+          <div className="homeAboutSectionRight">
+            <h2 className="homeAboutSectionHeading">Why Us ?</h2>
+            <p className="homeAboutSectionText">Choose D2A for timely delivery, professional management, and attention to detail. We prioritize client satisfaction through a design process that includes visualization and a commitment to understanding unique requirements. We build long-term relationships by listening to client needs.</p>
           </div>
         </div>
       </div>
