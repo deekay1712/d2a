@@ -4,6 +4,7 @@ import LandingPage from "../Components/LandingPage";
 import HomeAbout from "../Components/HomeAbout";
 import HomeCards from "../Components/HomeCards";
 // import HomeWhyUs from "../Components/HomeWhyUs";
+import HomeTestimonials from "../Components/HomeTestimonials";
 import Head from 'next/head'
 
 export default function Home() {
@@ -70,6 +71,7 @@ export default function Home() {
       <HomeServices />
       <HomeAbout />
       <HomeCards />
+      <HomeTestimonials />
       {/* <HomeWhyUs /> */}
     </>
   );
