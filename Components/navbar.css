@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: white;
     position: sticky;
     top: 0px;
     z-index: 999;
@@ -12,12 +13,11 @@
     height: 60px;
     user-select: none;
     transition: all 0.5s ease-in-out;
-    color: white;
 }
-.navBarWhite{
+/* .navBarWhite{
     background-color: white;
     color: black;
-}
+} */
 .navbarLogo{
     display: flex;
     justify-content: center;

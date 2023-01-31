@@ -11,7 +11,7 @@ export default function HomeTestimonials() {
                             <div className="homeTestimonialsSlideFeedback">
                                 <p className="homeTestimonialsSlideText">&#34;It was a nice experience working with these people. They did a lot of hard-work and gave my place an amazing makeover.&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Dikshansh Kumar Lodhi</div>
@@ -24,7 +24,7 @@ export default function HomeTestimonials() {
                             <div className="homeTestimonialsSlideFeedback">
                                 <p className="homeTestimonialsSlideText">&#34;Good knowledge people who can design and develop and type of building residential or commercial.&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Nikit Singh</div>
@@ -37,7 +37,7 @@ export default function HomeTestimonials() {
                             <div className="homeTestimonialsSlideFeedback">
                                 <p className="homeTestimonialsSlideText">&#34;We were impressed with the level of attention to detail and professionalism throughout the project.&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Rajdeep Jaiswal</div>
@@ -48,9 +48,9 @@ export default function HomeTestimonials() {
                     <div className="homeTestimonialsSlide">
                         <div className="homeTestimonialsSlideContent">
                             <div className="homeTestimonialsSlideFeedback">
-                                <p className="homeTestimonialsSlideText">&#34;Working with this firm was a stress-free experience and we highly recommend them to anyone looking for top-notch architectural services&#34;</p>
+                                <p className="homeTestimonialsSlideText">&#34;I highly recommend them to anyone looking for top-notch architectural services&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Roshan Rawat</div>
@@ -63,7 +63,7 @@ export default function HomeTestimonials() {
                             <div className="homeTestimonialsSlideFeedback">
                                 <p className="homeTestimonialsSlideText">&#34;Architects with best of the knowledge and projects management services&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Sunny Jaiswal</div>
@@ -76,7 +76,7 @@ export default function HomeTestimonials() {
                             <div className="homeTestimonialsSlideFeedback">
                                 <p className="homeTestimonialsSlideText">&#34;It was a nice experience working with these people. They did a lot of hard-work and gave my place an amazing makeover.&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Dikshansh Kumar Lodhi</div>
@@ -89,7 +89,7 @@ export default function HomeTestimonials() {
                             <div className="homeTestimonialsSlideFeedback">
                                 <p className="homeTestimonialsSlideText">&#34;Good knowledge people who can design and develop and type of building residential or commercial.&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Nikit Singh</div>
@@ -102,7 +102,7 @@ export default function HomeTestimonials() {
                             <div className="homeTestimonialsSlideFeedback">
                                 <p className="homeTestimonialsSlideText">&#34;We were impressed with the level of attention to detail and professionalism throughout the project.&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Rajdeep Jaiswal</div>
@@ -113,9 +113,9 @@ export default function HomeTestimonials() {
                     <div className="homeTestimonialsSlide">
                         <div className="homeTestimonialsSlideContent">
                             <div className="homeTestimonialsSlideFeedback">
-                                <p className="homeTestimonialsSlideText">&#34;Working with this firm was a stress-free experience and we highly recommend them to anyone looking for top-notch architectural services&#34;</p>
+                                <p className="homeTestimonialsSlideText">&#34;I highly recommend them to anyone looking for top-notch architectural services&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Roshan Rawat</div>
@@ -128,7 +128,7 @@ export default function HomeTestimonials() {
                             <div className="homeTestimonialsSlideFeedback">
                                 <p className="homeTestimonialsSlideText">&#34;Architects with best of the knowledge and projects management services&#34;</p>
                             </div>
-                            <div className="homeTestimonialsSlideSeparator"></div>
+                            <hr className="homeTestimonialsSlideSeparator"/>
                             <div className="homeTestimonialsSlideAuthor">
                                 <img src="/Assets/avatar.png" alt="testimonial" className="homeTestimonialsSlideAuthorImage" />
                                 <div className="homeTestimonialSlideAuthorName">Sunny Jaiswal</div>

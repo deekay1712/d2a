@@ -2,21 +2,23 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
 
-export default function Navbar({navColor}) {
+// export default function Navbar({navColor}) {
+export default function Navbar() {
     // console.log('navColor : ',navColor);
     const router = useRouter();
     const [toggle,setToggle] = useState(false);
     const [sideBar,setSideBar] = useState(false);
     const [isHome,setIsHome] = useState(true);
     useEffect(() => {
-        if(router.pathname === '/'){
-            setIsHome(true);
-        }else{
-            setIsHome(false);
-        }
+        // if(router.pathname === '/'){
+        //     setIsHome(true);
+        // }else{
+        //     setIsHome(false);
+        // }
     }, [router.pathname])
     return (
-        <div className={`navbarWrapper ${navColor||(!isHome)?'navBarWhite': ''}`}>
+        // <div className={`navbarWrapper ${navColor||(!isHome)?'navBarWhite': ''}`}>
+        <div className="navbarWrapper">
             <div className='navbarLogo'>
                 <Link href="/" >
                     {/* <a><img className='navbarLogoImg' src="/Assets/LogoBlack.png" alt="" /></a> */}

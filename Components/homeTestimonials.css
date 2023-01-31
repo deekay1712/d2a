@@ -56,9 +56,7 @@
     height: calc(20px*3);
 }
 .homeTestimonialsSlideSeparator{
-    height: 1px;
     width: 100%;
-    background-color: #070707;
     margin: 10px 0;
 }
 .homeTestimonialsSlideAuthor{
