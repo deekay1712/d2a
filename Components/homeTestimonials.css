@@ -102,4 +102,9 @@
         width: calc(300px*10);
         animation: homeTestimonialsSliderAnimationMobile 40s infinite linear;
     }
+    .homeTestimonialsSlideFeedback{
+        font-size: 13px;
+        line-height: 18px;
+        height: calc(18px*4);
+    }
 }
