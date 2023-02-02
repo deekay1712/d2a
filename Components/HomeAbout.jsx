@@ -19,7 +19,7 @@ export default function HomeAbout() {
         <div className="homeAboutSection2">
           <div className="homeAboutSectionLeft">
             <h2 className="homeAboutSectionHeading">Who are we ?</h2>
-            <p className="homeAboutSectionText">D2A Atelier is a team of architects and designers driven to create exceptional spaces. With diverse expertise, we bring unique solutions and collaborate to meet clients' needs while pushing boundaries in design and technology. Our passion is guided by values of innovation, sustainability, and collaboration.</p>
+            <p className="homeAboutSectionText">D2A Atelier is a team of architects and designers driven to create exceptional spaces. With diverse expertise, we bring unique solutions and collaborate to meet clients&39; needs while pushing boundaries in design and technology. Our passion is guided by values of innovation, sustainability, and collaboration.</p>
           </div>
           <div className="homeAboutSectionMiddle"></div>
           <div className="homeAboutSectionRight">

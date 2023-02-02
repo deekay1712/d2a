@@ -2,7 +2,7 @@ export default function HomeTestimonials() {
     return (
         <div className='homeTestimonialsWrapper'>
             <h1 className="homeTestimonialsHeading">Testimonials</h1>
-            <p className="homeTestimonialsText">Our client testimonials are a testament to the high level of customer satisfaction we strive to achieve on every project. By sharing feedback from past clients, we hope to provide valuable insight into the level of professionalism, attention to detail, and commitment to timely delivery that sets us apart as a top architectural firm. Whether you're looking to build a new home, remodel an existing space, or undertake a large commercial project, our testimonials offer a glimpse into the level of service and quality you can expect when you choose us.</p>
+            <p className="homeTestimonialsText">Our client testimonials are a testament to the high level of customer satisfaction we strive to achieve on every project. By sharing feedback from past clients, we hope to provide valuable insight into the level of professionalism, attention to detail, and commitment to timely delivery that sets us apart as a top architectural firm. Whether you&#39;re looking to build a new home, remodel an existing space, or undertake a large commercial project, our testimonials offer a glimpse into the level of service and quality you can expect when you choose us.</p>
 
             <div className="homeTestimonialsSlider">
                 <div className="homeTestimonialsSliderTrack">
