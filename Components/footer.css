@@ -9,27 +9,80 @@
 }
 .footerCol{
     flex: 1;
+    margin-right: 5vw;
 }
-.footerLogoCol{
-    flex: 1;
+.footerColAbout{
+    margin-right: 5vw;
+    flex: 2;
 }
-.footerHeading{
-    font-weight: 400;
+.footerTitle{
+    font-family: 'Montserrat', sans-serif !important; 
+    font-weight: 600;
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .footerContent{
+    color: #999999;
     font-family: 'Montserrat', sans-serif !important; 
     font-size: 13px;
 }
+.footerList{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px!important;
+}
+.footerListItem{
+    margin-bottom: 5px;
+    color: #999999;
+}
+.footerListItem:hover{
+    color: #808080;
+    text-decoration: none;
+}
+.footerLink{
+    display: flex;
+}
+.footerSideArrow{
+    height: 14px;
+    width: 5px;
+    margin-right: 7px;
+}
+.footerContactIcon{
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 4px;
+}
 .footerLogo{
     width: 100px;
-    position: absolute;
-    right: 0;
-    transform: translateX(-100%);
     cursor: pointer;
 }
-.footerColContactButton{
+.footerAbout{
+    margin: 10px 0;
+    padding-right: 20px;
+}
+.footerSocial{
+    display: flex;
+    margin-top: 10px;
+
+
+}
+.footerSocialIcon{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.footerSocialLink{
+    background-color: #ffffff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+/* .footerColContactButton{
     display: flex;
 }
 .contactUsButton{
@@ -44,28 +97,14 @@
 .contactUsButton:hover{
     background-color: #ffffff;
     color: #070707;
-}
+} */
 
 @media (max-width: 992px) {
-    /* .footerAddress{
-        display: none;
-    } */
     .footerWrapper{
         flex-direction: column;
     }
-    .footerLogo{
-        position: static;
-        transform: translateX(0%);
-        width: 60px;
-    }
-    .footerCol{
+    .footerCol, .footerColAbout{
         margin-bottom: 15px;
     }
  
-}
-@media (max-width: 768px){
-    .contactUsButton:hover{
-        background-color: #070707;
-        color: #ffffff;
-    }
 }
