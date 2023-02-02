@@ -79,13 +79,13 @@ export default function Footer() {
       </ul>
       <h3 className='footerTitle'>STAY CONNECTED</h3>
       <div className='footerSocial'>
-        <a href='https://www.facebook.com/d2aatelier' target='_blank' rel='noreferrer' className='footerSocialLink'>
+        <a href='https://www.facebook.com/profile.php?id=100081276530407' target='_blank' rel='noreferrer' className='footerSocialLink'>
           <img src='/assets/facebook.png' alt='facebook' className='footerSocialIcon'/>
         </a>
         <a href='https://www.instagram.com/d2aatelier/' target='_blank' rel='noreferrer' className='footerSocialLink'>
           <img src='/assets/instagram.png' alt='instagram' className='footerSocialIcon'/>
         </a>
-        <a href='https://www.linkedin.com/company/d2aatelier' target='_blank' rel='noreferrer' className='footerSocialLink'>
+        <a href='https://www.linkedin.com/company/d2a-atelier/' target='_blank' rel='noreferrer' className='footerSocialLink'>
           <img src='/assets/linkedin.png' alt='linkedin' className='footerSocialIcon'/>
         </a>
       </div>
