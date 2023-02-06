@@ -8,38 +8,38 @@ import HomeTestimonials from "../Components/HomeTestimonials";
 import Head from 'next/head'
 
 export default function Home() {
-  const homeCarouselData = [
-    {
-      img: "/Assets/carousel0.jpeg",
-      label: ``,
-      caption: `Our first site visit is always free of cost.`,
-    },
-    {
-      img: "/Assets/carousel5.jpeg",
-      label: ``,
-      caption: `Drafting Services and Sketchup Modeling.`,
-    },
-    {
-      img: "/Assets/carousel1.jpeg",
-      label: ``,
-      caption: `"Convert your dreams into reality with D2A"`,
-    },
-    {
-      img: "/Assets/carousel2.jpeg",
-      label: ``,
-      caption: `"We are D2A Atelier"`,
-    },
-    {
-      img: "/Assets/carousel3.jpeg",
-      label: ``,
-      caption: `"We shape our buildings: thereafter they shape us."`
-    },
-    {
-      img: "/Assets/carousel4.jpeg",
-      label: ``,
-      caption: `"When we build, let us think that we build forever."`,
-    },
-  ];
+  // const homeCarouselData = [
+  //   {
+  //     img: "/Assets/carousel0.jpeg",
+  //     label: ``,
+  //     caption: `Our first site visit is always free of cost.`,
+  //   },
+  //   {
+  //     img: "/Assets/carousel5.jpeg",
+  //     label: ``,
+  //     caption: `Drafting Services and Sketchup Modeling.`,
+  //   },
+  //   {
+  //     img: "/Assets/carousel1.jpeg",
+  //     label: ``,
+  //     caption: `"Convert your dreams into reality with D2A"`,
+  //   },
+  //   {
+  //     img: "/Assets/carousel2.jpeg",
+  //     label: ``,
+  //     caption: `"We are D2A Atelier"`,
+  //   },
+  //   {
+  //     img: "/Assets/carousel3.jpeg",
+  //     label: ``,
+  //     caption: `"We shape our buildings: thereafter they shape us."`
+  //   },
+  //   {
+  //     img: "/Assets/carousel4.jpeg",
+  //     label: ``,
+  //     caption: `"When we build, let us think that we build forever."`,
+  //   },
+  // ];
   return (
     <>
       <Head>
