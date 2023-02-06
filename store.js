@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-const Store = createContext();
+const Store = createContext(null);
 
 export const useStore = () => useContext(Store);
 

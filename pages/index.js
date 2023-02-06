@@ -42,16 +42,7 @@ export default function Home() {
     //     caption: `"When we build, let us think that we build forever."`,
     //   },
     // ];
-    const { setState } = useStore();
-    useEffect(() => {
-        const fetchCountry = async () => {
-            const res = await fetch("https://ipapi.co/json/");
-            const data = await res.json();
-            setState({ isIndia: data.country_name === "India" })
-        }
-        fetchCountry();
-    }, [])
-
+    const { state } = useStore();
 
     return (
         <>
@@ -83,8 +74,13 @@ export default function Home() {
             {/* <CarouselHome homeCarouselData={homeCarouselData} /> */}
             <HomeServices />
             <HomeAbout />
+            {
+                state.isIndia && <>
+
             <HomeCards />
             <HomeTestimonials />
+                </>
+            }
             {/* <HomeWhyUs /> */}
         </>
     );
