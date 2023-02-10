@@ -6,7 +6,7 @@ export default function ServicesOfferedOutsourcing() {
                 <div className="serviceOfferedContent">
                     <h1 className="serviceOfferedTitle">AutoCAD</h1>
                     <p className="serviceOfferedDescription">Our team at D2A Atelier is equipped with advanced AutoCAD software, allowing us to deliver precise and accurate drafting services to meet your architectural needs. Our focus on detail and attention to every aspect of your project ensures that we deliver high-quality results every time.</p>
-                    <Link href="/services-we-offer/autocad">
+                    <Link href="/services-we-offer/auto-cad">
                         <a className="serviceOfferedBtn">Learn More About This</a>
                     </Link>
                 </div>
@@ -36,7 +36,7 @@ export default function ServicesOfferedOutsourcing() {
                 <div className="serviceOfferedContent">
                     <h1 className="serviceOfferedTitle">3D Visualization</h1>
                     <p className="serviceOfferedDescription">Our team of talented 3D artists and animators create photorealistic 3D visualizations that bring your designs to life. Our 3D visualization services allow you to see your projects in full detail, helping you make informed decisions before construction begins.</p>
-                    <Link href="/services-we-offer/3dVisualization">
+                    <Link href="/services-we-offer/3d-visualization">
                         <a className="serviceOfferedBtn">Learn More About This</a>
                     </Link>
                 </div>
