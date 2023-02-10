@@ -46,19 +46,19 @@ export default function Footer() {
           </Link>
         </li>
         <li className='footerListItem'>
-          <Link href='/services'>
+          <Link href={state.isIndia ? `/services`: `/services-we-offer`}>
             <a className='footerContent'>
               <img src='/Assets/ic-sideArrow.svg' alt='sideArrow' className='footerSideArrow'/>
               Services</a>
           </Link>
         </li>
-        <li className='footerListItem'>
+        {state.isIndia && <li className='footerListItem'>
           <Link href='/portfolio'>
             <a className='footerContent'>
               <img src='/Assets/ic-sideArrow.svg' alt='sideArrow' className='footerSideArrow'/>
               Our Projects</a>
           </Link>
-        </li>
+        </li>}
       </ul>
     </div>
     <div className='footerCol'>
