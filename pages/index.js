@@ -6,7 +6,6 @@ import HomeCards from "../Components/HomeCards";
 // import HomeWhyUs from "../Components/HomeWhyUs";
 import HomeTestimonials from "../Components/HomeTestimonials";
 import Head from 'next/head'
-import { useEffect, useState } from "react";
 import { useStore } from "../store";
 
 export default function Home() {
