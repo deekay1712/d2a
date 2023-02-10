@@ -1,6 +1,9 @@
 import Link from 'next/link';
+import { useStore } from "../store";
 
 export default function Footer() {
+  const { state } = useStore();
+
   return (
   <div className='footerWrapper'>
     <div className='footerColAbout'>
@@ -8,7 +11,8 @@ export default function Footer() {
         <img src='/Assets/LogoWhite.png' alt='logo' className='footerLogo'/>
       </Link>
       <div className="footerAbout">
-        <p className='footerContent'>D2A Atelier is a design studio that provides a wide range of services in the field of architecture, interior design, and landscape design. We are a team of young and passionate architects and designers who are committed to providing the best design solutions to our clients.</p>
+        {state.isIndia ? <p className='footerContent'>D2A Atelier is a design studio that provides a wide range of services in the field of architecture, interior design, and landscape design. We are a team of young and passionate architects and designers who are committed to providing the best design solutions to our clients.</p> :
+        <p className='footerContent'>D2A Atelier is a premier architectural design firm based in New Delhi, India. With a combined experience of 8 years, our team of professional architects offer a wide range of services, including AutoCAD drafting, SketchUp, BIM, and 3D visualization. We are dedicated to delivering high-quality solutions and ensuring a seamless experience for our clients, from start to finish.</p>}
       </div>
       <div className="footerListItem">
         <Link href='/about-us'>
