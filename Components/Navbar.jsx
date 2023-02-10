@@ -32,7 +32,7 @@ export default function Navbar() {
             <ul className={`navbarElements ${sideBar ? '' : 'sideBarHide'}`}>
                 <li onClick={() => { setToggle(false); setSideBar(false) }} className={`navItem ${sideBar ? '' : 'navItemSlide'}`}><Link href="/" ><a>HOME</a></Link></li>
                 {state.isIndia && <li onClick={() => { setToggle(false); setSideBar(false) }} className={`navItem ${sideBar ? '' : 'navItemSlide'}`}><Link href="/portfolio"><a>PORTFOLIO</a></Link></li>}
-                <li onClick={() => { setToggle(false); setSideBar(false) }} className={`navItem ${sideBar ? '' : 'navItemSlide'}`}><Link href="/services"><a>SERVICES</a></Link></li>
+                <li onClick={() => { setToggle(false); setSideBar(false) }} className={`navItem ${sideBar ? '' : 'navItemSlide'}`}>{state.isIndia ? <Link href="/services"><a>SERVICES</a></Link> : <Link href="/services-we-offer"><a>SERVICES</a></Link>}</li>
                 <li onClick={() => { setToggle(false); setSideBar(false) }} className={`navItem ${sideBar ? '' : 'navItemSlide'}`}><Link href="/about-us"><a>ABOUT US</a></Link></li>
                 <li onClick={() => { setToggle(false); setSideBar(false) }} className={`navItem ${sideBar ? '' : 'navItemSlide'}`}><Link href="/contact-us"><a>CONTACT US</a></Link></li>
             </ul>
