@@ -1,6 +1,6 @@
 .aboutUsBanner{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/aboutUsBanner.jpeg');
-    min-height: calc(100vh - 60px);
+    min-height: calc((100vh - 60px) / 2);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .aboutUsBannerContent{
     font-size: 30px;
@@ -26,21 +25,15 @@
 }
 .aboutUsTextContent{
     font-size: calc(12px + 0.5vw);
+    margin-bottom: 10px !important;
 }
 
 .aboutUsTextHeading{
     font-size: calc(22px + 0.5vw);
-    font-weight: semi-bold;
-    text-transform: uppercase;
-    margin-bottom: 9px !important;
+    margin: 3vw 0 10px 0;
 }
 
 .aboutUsBanner1{
     min-height: calc((100vh - 60px) / 2);
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/aboutUs1.jpeg');
 }
-.aboutUsBanner2{
-    min-height: calc((100vh - 60px) / 2);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/aboutUs2.jpeg');
-}
-
