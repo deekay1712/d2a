@@ -1,5 +1,5 @@
 import faqsData from "../public/Assets/faqs";
-import Faq from "../Components/faq";
+import Faq from "../Components/Faq";
 
 export default function Faqs() {
     return (
