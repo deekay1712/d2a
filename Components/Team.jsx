@@ -47,7 +47,7 @@ export default function Team() {
             <div className="teamMembers">
                 <div className="teamMemberBlock">
                     <div className="teamMemberImageContainer">
-                        <img className="teamMemberImage" src="/Assets/Team/jasmine.jpg" alt="Founder"/>
+                        <img className="teamMemberImage" src="/Assets/Team/avatar.png" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
                         <p className="teamMemberName">Jasmine</p>
@@ -59,7 +59,7 @@ export default function Team() {
 
                 <div className="teamMemberBlock">
                     <div className="teamMemberImageContainer">
-                        <img className="teamMemberImage" src="/Assets/Team/rabacca.jpg" alt="Founder"/>
+                        <img className="teamMemberImage" src="/Assets/Team/rabacca.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
                         <p className="teamMemberName">Rabacca</p>
@@ -71,7 +71,7 @@ export default function Team() {
 
                 <div className="teamMemberBlock">
                     <div className="teamMemberImageContainer">
-                        <img className="teamMemberImage" src="/Assets/Team/arvind.jpg" alt="Founder"/>
+                        <img className="teamMemberImage" src="/Assets/Team/arvind.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
                         <p className="teamMemberName">Arvind</p>
@@ -85,7 +85,7 @@ export default function Team() {
             <div className="teamMembers">
                 <div className="teamMemberBlock">
                     <div className="teamMemberImageContainer">
-                        <img className="teamMemberImage" src="/Assets/Team/fiyazul.jpg" alt="Founder"/>
+                        <img className="teamMemberImage" src="/Assets/Team/fiyazul.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
                         <p className="teamMemberName">Fiyazul</p>
@@ -97,7 +97,7 @@ export default function Team() {
 
                 <div className="teamMemberBlock">
                     <div className="teamMemberImageContainer">
-                        <img className="teamMemberImage" src="/Assets/Team/nikhil.jpg" alt="Founder"/>
+                        <img className="teamMemberImage" src="/Assets/Team/nikhil.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
                         <p className="teamMemberName">Nikhil</p>
@@ -109,7 +109,7 @@ export default function Team() {
 
                 <div className="teamMemberBlock">
                     <div className="teamMemberImageContainer">
-                        <img className="teamMemberImage" src="/Assets/Team/rahul.jpg" alt="Founder"/>
+                        <img className="teamMemberImage" src="/Assets/Team/rahul.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
                         <p className="teamMemberName">Rahul</p>

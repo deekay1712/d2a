@@ -23,7 +23,7 @@ export default function HomeAbout() {
           <div className="homeAboutSection2">
             <div className="homeAboutSectionLeft">
               <h2 className="homeAboutSectionHeading">Who are we ?</h2>
-              <p className="homeAboutSectionText">D2A Atelier is a team of architects and designers driven to create exceptional spaces. With diverse expertise, we bring unique solutions and collaborate to meet clients&39; needs while pushing boundaries in design and technology. Our passion is guided by values of innovation, sustainability, and collaboration.</p>
+              <p className="homeAboutSectionText">D2A Atelier is a team of architects and designers driven to create exceptional spaces. With diverse expertise, we bring unique solutions and collaborate to meet clients&#39; needs while pushing boundaries in design and technology. Our passion is guided by values of innovation, sustainability, and collaboration.</p>
             </div>
             <div className="homeAboutSectionMiddle"></div>
             <div className="homeAboutSectionRight">
@@ -39,6 +39,17 @@ export default function HomeAbout() {
             <div className="homeAboutSectionRight">
               <h2 className="homeAboutSectionHeading">Why Us ?</h2>
               <p className="homeAboutSectionText">Choose D2A for timely delivery, professional management, and attention to detail. We prioritize client satisfaction through a design process that includes visualization and a commitment to understanding unique requirements. We build long-term relationships by listening to client needs.</p>
+            </div>
+          </div>
+
+          <div className="homeAboutSection2">
+            <div className="homeAboutSectionLeft">
+              <h2 className="homeAboutSectionHeading">Our Team ?</h2>
+              <p className="homeAboutSectionText">D2A Atelier is proud to have a team of highly skilled and experienced architects who possess exceptional design capabilities. Each member of our team is talented and passionate about their work, bringing a unique perspective and creative flair to every project.</p>
+            </div>
+            <div className="homeAboutSectionMiddle"></div>
+            <div className="homeAboutSectionRight">
+              <img className="homeAboutSectionImg" src="/Assets/homeAbout4.jpg" alt="" />
             </div>
           </div>
 
