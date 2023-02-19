@@ -1,4 +1,5 @@
 import { useStore } from "../store";
+import Link from "next/link";
 
 export default function HomeAbout() {
   const { state } = useStore();
@@ -6,7 +7,7 @@ export default function HomeAbout() {
   if(state.isIndia){
     return (
       <div className="homeAboutWrapper">
-        {/* <h1 className="homeAboutHeading">Renowned Architectural Design</h1> */}
+        <h1 className="homeAboutHeading">About Us</h1>
         {/* <p className="homeAboutText">D2A Atelier have experience creating exceptional residential homes. The firm is recognized for creating innovative and environmentally conscious infrastructure that is individually tailored to each client and great for the community. Its multidisciplinary team of highly skilled and motivated professionals works as a strong team in each project to ensure quality of work by addressing forces of the site, respecting the context, looking into the cultural and economic aspects, meeting client’s needs and budget as well as coordinating contemporary construction techniques, branding, marketing and post occupancy issues.</p> */}
           <div className="homeAboutSection1">
             <div className="homeAboutSectionLeft">
@@ -40,13 +41,17 @@ export default function HomeAbout() {
               <p className="homeAboutSectionText">Choose D2A for timely delivery, professional management, and attention to detail. We prioritize client satisfaction through a design process that includes visualization and a commitment to understanding unique requirements. We build long-term relationships by listening to client needs.</p>
             </div>
           </div>
+
+          <Link href="/about-us">
+            <a className="homeAboutBtn">Know More About Us</a>
+          </Link>
       </div>
     )
   }
   else{
     return (
       <div className="homeAboutWrapper">
-        {/* <h1 className="homeAboutHeading">Renowned Architectural Design</h1> */}
+        <h1 className="homeAboutHeading">About Us</h1>
         {/* <p className="homeAboutText">D2A Atelier have experience creating exceptional residential homes. The firm is recognized for creating innovative and environmentally conscious infrastructure that is individually tailored to each client and great for the community. Its multidisciplinary team of highly skilled and motivated professionals works as a strong team in each project to ensure quality of work by addressing forces of the site, respecting the context, looking into the cultural and economic aspects, meeting client’s needs and budget as well as coordinating contemporary construction techniques, branding, marketing and post occupancy issues.</p> */}
           <div className="homeAboutSection1">
             <div className="homeAboutSectionLeft">
@@ -80,6 +85,10 @@ export default function HomeAbout() {
               <p className="homeAboutSectionText">Choose D2A for timely delivery, professional management, and attention to detail. We prioritize client satisfaction through a design process that includes visualization and a commitment to understanding unique requirements. We build long-term relationships by listening to client needs.</p>
             </div>
           </div>
+
+          <Link href="/about-us">
+            <a className="homeAboutBtn">Know More About Us</a>
+          </Link>
       </div>
     )
   }

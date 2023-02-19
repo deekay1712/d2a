@@ -33,6 +33,52 @@
     margin: 10px 0 !important;
 }
 .outsourcingServiceComponentContentHeading{
-    margin: 30px 0 10px 0;
+    margin: 0px 0 10px 0;
     font-size: calc(12px + 0.5vw);
+}
+.outsourcingServiceFilter{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6vw 0;
+}
+.outsourcingServiceFilterButton{
+    padding: 10px;
+    border: 1px solid #56667A;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    color: #56667A;
+    margin: 0 10px 10px 0;
+    transition: all 0.2s ease;
+}
+.outsourcingServiceFilterButtonSelected{
+    background-color: #56667A;
+    color: #ffffff;
+}
+.outsourcingServiceComponentSubserviceWrapper{
+    display: flex;
+}
+.outsourcingServiceComponentSubserviceContent{
+    flex: 1;
+}
+.outsourcingServiceComponentSubserviceImage{
+    flex: 1;
+}
+.outsourcingServiceComponentSubserviceSeparator{
+    flex: 0.1;
+}
+.outsourcingServiceComponentSubserviceImage img{
+    width: 100%;
+    object-fit: cover;
+}
+@media(max-width: 768px){
+    .outsourcingServiceComponentSubserviceWrapper{
+        flex-direction: column;
+    }
+    .outsourcingServiceComponentSubserviceContent{
+        margin: 0 0 20px 0;
+    }
+    .outsourcingServiceComponentSubserviceSeparator{
+        display: none;
+    }
 }
