@@ -59,6 +59,13 @@ export default function Footer() {
               Our Projects</a>
           </Link>
         </li>}
+        {!state.isIndia && <li className='footerListItem'>
+          <Link href='/faqs'>
+            <a className='footerContent'>
+              <img src='/Assets/ic-sideArrow.svg' alt='sideArrow' className='footerSideArrow'/>
+              FAQs</a>
+          </Link>
+          </li>}
       </ul>
     </div>
     <div className='footerCol'>

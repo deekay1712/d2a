@@ -17,6 +17,7 @@
 @import "../Components/homeTestimonials.css";
 @import "../Components/servicesOfferedOutsourcing.css";
 @import "../Components/outsourcingServicesComponent.css";
+@import"../Components/faq.css";
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka:wght@300;400;500;600&display=swap');
 
 html,
@@ -39,4 +40,13 @@ a, a:hover, a:focus, a:active {
 }
 * {
   box-sizing: border-box;
+}
+.faqsWrapper{
+  padding: 3vw 6vw 6vw 6vw;
+}
+
+.faqsHeading{
+  text-align: center;
+  font-size: calc(22px + 0.5vw);
+  margin-bottom: 20px;
 }
