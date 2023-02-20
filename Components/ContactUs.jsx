@@ -18,8 +18,28 @@ export default function ContactUs() {
   return (
     <div className="contactUsWrapper">
         <div className="contactUsBanner">
-            <h1 className="contactUsBannerHeading">Contact D2A Atelier</h1>
-            <p className="contactUsBannerSubHeading">Use the form to get in touch with our office. We will do our best to getback within 48 hours</p>
+            <h1 className="contactUsBannerHeading">Contact Us</h1>
+            {/* <p className="contactUsBannerSubHeading">Use the form to get in touch with our office. We will do our best to getback within 24 hours</p> */}
+            <ul className="contactUsBannerList">
+                <li className="contactUsBannerListItem">
+                    <a href='https://goo.gl/maps/vnCG1ZEpT2ete9zp8' target='_blank' rel='noreferrer' className='contactUsBannerLink'>
+                        <img src='/Assets/ic-location.svg' alt='location' className='contactUsBannerIcon'/>
+                        H-310, Dr.Ambedkar Nagar, Block H, Sector 5, Dakshinpuri, <br/>New Delhi, Delhi 110062
+                    </a>
+                </li>
+                <li className="contactUsBannerListItem">
+                    <a href='tel:+919990632664' className='contactUsBannerLink'>
+                        <img src='/Assets/ic-phone.svg' alt='phone' className='contactUsBannerIcon'/>
+                        +91 9990632664
+                    </a>
+                </li>
+                <li className="contactUsBannerListItem">
+                    <a href='mailto:admin@d2aatelier.com' className='contactUsBannerLink'>
+                        <img src='/Assets/ic-mail.svg' alt='mail' className='contactUsBannerIcon'/>
+                        admin@d2aatelier.com
+                    </a>
+                </li>
+            </ul>
         </div>
         <div className="contactUsFormWrapper">
             <form className="contactUsForm" ref={form} onSubmit={sendEmail}>
