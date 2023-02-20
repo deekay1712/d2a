@@ -19,17 +19,17 @@ export default function AboutUs() {
             <p className="aboutUsTextContent">
               Our values underpin everything we do at D2A Atelier. The way we approach our work and the way we interact with our colleagues and clients. </p>  
             <p className="aboutUsTextContent">
-              QUALITY<br/>
-              This value is critical to our company and our staff members. It is an imperative part of our ser- vice and professionalism.</p>
+              <strong>QUALITY</strong><br/>
+              This value is critical to our company and our staff members. It is an imperative part of our service and professionalism.</p>
             <p className="aboutUsTextContent">
-              DEPENDABILITY<br/>
+            <strong>DEPENDABILITY</strong><br/>
               Our client must be able to rely on us to deliver on our promise without worry with the project quality. You can rely on D2A Atelier to complete.</p>
             <p className="aboutUsTextContent">
-              INTEGRITY<br/>
-              We foster the highest standards of personal con- duct in our people stressing the importance of courtesy, honesty, trust and understanding.</p>
+              <strong>INTEGRITY</strong><br/>
+              We foster the highest standards of personal conduct in our people stressing the importance of courtesy, honesty, trust and understanding.</p>
             <p className="aboutUsTextContent">
-              PRIDE<br/>
-              All member of staff at D2A Atelier quickly devel- op a sense of professional pride in their work, skills, attitudes and in their own abilities due to the quality, dependability and integrity our com- pany offers.</p>
+              <strong>PRIDE</strong><br/>
+              All member of staff at D2A Atelier quickly develop a sense of professional pride in their work, skills, attitudes and in their own abilities due to the quality, dependability and integrity our company offers.</p>
         </div>
         <div className="aboutUsBanner aboutUsBanner1">
           <div className="aboutUsBannerContent">

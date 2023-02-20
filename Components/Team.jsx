@@ -7,7 +7,7 @@ export default function Team() {
                         <img className="teamMemberImage" src="/Assets/Team/dharmender.jpg" alt="Founder" />
                     </div>
                     <div className="teamMemberNameWrapper">
-                        <p className="teamMemberName">Dharmender Jaiswal</p>
+                        <p className="teamMemberName">DK Jaiswal</p>
                         <a href="https://www.linkedin.com/in/dharmender-jaishwal/" target="_blank" rel="noreferrer" className="teamFounderSocial">
                             <img className="teamMemberLinkedinIcon" src="/Assets/linkedin.svg" alt="LinkedIn" />
                         </a>
@@ -50,7 +50,7 @@ export default function Team() {
                         <img className="teamMemberImage" src="/Assets/Team/avatar.png" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
-                        <p className="teamMemberName">Jasmine</p>
+                        <p className="teamMemberName">Jasmine Sharma</p>
                     </div>
                     <div className="teamMemberDesignationWrapper">
                         <p className="teamMemberDesignation">Sr. BDM</p>
@@ -59,10 +59,10 @@ export default function Team() {
 
                 <div className="teamMemberBlock">
                     <div className="teamMemberImageContainer">
-                        <img className="teamMemberImage" src="/Assets/Team/rabacca.jpg" alt="Member"/>
+                        <img className="teamMemberImage" src="/Assets/Team/rebecca.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
-                        <p className="teamMemberName">Rabacca</p>
+                        <p className="teamMemberName">Rebecca Edison</p>
                     </div>
                     <div className="teamMemberDesignationWrapper">
                         <p className="teamMemberDesignation">Team Leader</p>
@@ -74,7 +74,7 @@ export default function Team() {
                         <img className="teamMemberImage" src="/Assets/Team/arvind.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
-                        <p className="teamMemberName">Arvind</p>
+                        <p className="teamMemberName">Arvind Yadav</p>
                     </div>
                     <div className="teamMemberDesignationWrapper">
                         <p className="teamMemberDesignation">Intermediate Architect</p>
@@ -88,7 +88,7 @@ export default function Team() {
                         <img className="teamMemberImage" src="/Assets/Team/fiyazul.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
-                        <p className="teamMemberName">Fiyazul</p>
+                        <p className="teamMemberName">Fiyazul Islam</p>
                     </div>
                     <div className="teamMemberDesignationWrapper">
                         <p className="teamMemberDesignation">Intermediate Architect</p>
@@ -100,7 +100,7 @@ export default function Team() {
                         <img className="teamMemberImage" src="/Assets/Team/nikhil.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
-                        <p className="teamMemberName">Nikhil</p>
+                        <p className="teamMemberName">Nikhil Mishra</p>
                     </div>
                     <div className="teamMemberDesignationWrapper">
                         <p className="teamMemberDesignation">Junior Architect</p>
@@ -112,7 +112,7 @@ export default function Team() {
                         <img className="teamMemberImage" src="/Assets/Team/rahul.jpg" alt="Member"/>
                     </div>
                     <div className="teamMemberNameWrapper">
-                        <p className="teamMemberName">Rahul</p>
+                        <p className="teamMemberName">Rahul Sharma</p>
                     </div>
                     <div className="teamMemberDesignationWrapper">
                         <p className="teamMemberDesignation">Junior Architect</p>
