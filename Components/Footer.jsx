@@ -12,7 +12,7 @@ export default function Footer() {
       </Link>
       <div className="footerAbout">
         {state.isIndia ? <p className='footerContent'>D2A Atelier is a design studio that provides a wide range of services in the field of architecture, interior design, and landscape design. We are a team of young and passionate architects and designers who are committed to providing the best design solutions to our clients.</p> :
-        <p className='footerContent'>D2A Atelier is a premier architectural design firm based in New Delhi, India. With a combined experience of 8 years, our team of professional architects offer a wide range of services, including AutoCAD drafting, SketchUp, BIM, and 3D visualization. We are dedicated to delivering high-quality solutions and ensuring a seamless experience for our clients, from start to finish.</p>}
+        <p className='footerContent'>D2A Atelier is a premier drafting and design firm based in New Delhi, India. With a combined experience of 8 years, our team of professional architects offer a wide range of services, including AutoCAD drafting, SketchUp, BIM, and 3D visualization. We are dedicated to delivering high-quality solutions and ensuring a seamless experience for our clients, from start to finish.</p>}
       </div>
       <div className="footerListItem">
         <Link href='/about-us'>
