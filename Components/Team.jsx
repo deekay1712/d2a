@@ -7,7 +7,7 @@ export default function Team() {
                         <img className="teamMemberImage" src="/Assets/Team/dharmender.jpg" alt="Founder" />
                     </div>
                     <div className="teamMemberNameWrapper">
-                        <p className="teamMemberName">DK Jaiswal</p>
+                        <p className="teamMemberName">D.K. Jaishwal</p>
                         <a href="https://www.linkedin.com/in/dharmender-jaishwal/" target="_blank" rel="noreferrer" className="teamFounderSocial">
                             <img className="teamMemberLinkedinIcon" src="/Assets/linkedin.svg" alt="LinkedIn" />
                         </a>
@@ -18,7 +18,7 @@ export default function Team() {
                 </div>
                 <div className="teamMemberBio">
                     <p className="teamMemberBioText">
-                    Dharmender Jaishwal experience spans across 4 all aspects of the industry including major infrastructure, residential and commercial sectors. After the fundamental and practical aspects of each sector were established, Jaishwal went on to excel in Project Management, Site Management and Operations.
+                    D.K. Jaishwal experience spans across 4 all aspects of the industry including major infrastructure, residential and commercial sectors. After the fundamental and practical aspects of each sector were established, Jaishwal went on to excel in Project Management, Site Management and Operations.
                     </p>
                 </div>
             </div>
