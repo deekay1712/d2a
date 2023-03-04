@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     background-attachment: fixed;
+    background-position: 0px 200%;
 }
 .outsourcingServiceComponentHeader1{
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/Assets/outsourcingService1.jpg');
@@ -35,6 +36,19 @@
 .outsourcingServiceComponentContentHeading{
     margin: 0px 0 10px 0;
     font-size: calc(12px + 0.5vw);
+}
+.outsourcingServiceComponentImages{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 6vw 6vw 6vw ;
+    justify-content: space-between;
+}
+.outsourcingServiceComponentImage{
+    height: 320px;
+    width: auto;
+    margin: 10px;
+    object-fit: cover;
 }
 .outsourcingServiceFilter{
     display: flex;
@@ -70,6 +84,15 @@
 .outsourcingServiceComponentSubserviceImage img{
     width: 100%;
     object-fit: cover;
+}
+@media(max-width: 1200px){
+    .outsourcingServiceComponentImage{
+        height: 250px;
+        
+    }
+    .outsourcingServiceComponentImages{
+        justify-content: center;
+    }
 }
 @media(max-width: 768px){
     .outsourcingServiceComponentSubserviceWrapper{
