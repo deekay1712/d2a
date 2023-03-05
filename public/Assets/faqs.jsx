@@ -1,18 +1,8 @@
 const faqsData = [
     {
-        id: 1,
-        question: "What is your payment terms?",
-        answer: "In a per project cost basis, We generate invoices in 2 stages: - First 50% as a initial deposit, before commencing a project - And a final invoice at the completion of the project. Here, completion mean when we submit you the initial draft. Our Net payment term is 7 days."
-    },
-    {
         id: 2,
         question: "Do you cover all redlines within your quote?",
         answer: "Yes, we cover all redlines in our quote but if there comes any design change or scope change, that is considered R&R, and we charge for that. If the change is minor, we do it free of cost."
-    },
-    {
-        id: 3,
-        question: "Do you have the capacity to handle large commercial / residential projects?",
-        answer: "We have 5 teams, consisting of 10-12 resources in each tearn, which enables us to take up large projects with ease. You can blindly trust us with the size and quality of the project."
     },
     {
         id: 4,
@@ -39,11 +29,11 @@ const faqsData = [
         question: "What is the best way to communicate with you?",
         answer: "Every way is the best way for us. You can reach us on Email, Call or any other communication platforms like Microsoft team, Skype, Zoom etc."
     },
-    {
-        id: 9,
-        question: "Do you have a standard quality check procedure followed at your end before submitting the drawings?",
-        answer: "We follow a multi-level quality check procedure at our end. Here the quality checks are done at 3 levels. Senior drafter, Project manager and a senior project manager are usually involved in the quality check procedure."
-    },
+    // {
+    //     id: 9,
+    //     question: "Do you have a standard quality check procedure followed at your end before submitting the drawings?",
+    //     answer: "We follow a multi-level quality check procedure at our end. Here the quality checks are done at 3 levels. Senior drafter, Project manager and a senior project manager are usually involved in the quality check procedure."
+    // },
     {
         id: 10,
         question: "Do you use BIM 360?",

@@ -39,16 +39,19 @@
 }
 .outsourcingServiceComponentImages{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin: 0 6vw 6vw 6vw ;
-    justify-content: space-between;
 }
 .outsourcingServiceComponentImage{
-    height: 320px;
-    width: auto;
-    margin: 10px;
+    flex: 1;
+    margin: 15px;
+    display: flex;
+    justify-content: center; 
+}
+.outsourcingServiceComponentImage img{
+    width: 100%;
+    max-width: 400px;
     object-fit: cover;
+    height: 300px;
 }
 .outsourcingServiceFilter{
     display: flex;
@@ -85,15 +88,7 @@
     width: 100%;
     object-fit: cover;
 }
-@media(max-width: 1200px){
-    .outsourcingServiceComponentImage{
-        height: 250px;
-        
-    }
-    .outsourcingServiceComponentImages{
-        justify-content: center;
-    }
-}
+
 @media(max-width: 768px){
     .outsourcingServiceComponentSubserviceWrapper{
         flex-direction: column;
@@ -103,5 +98,8 @@
     }
     .outsourcingServiceComponentSubserviceSeparator{
         display: none;
+    }
+    .outsourcingServiceComponentImages{
+        flex-direction: column;
     }
 }

@@ -9,17 +9,17 @@ export default function SketchupComponent() {
     1: {
       title: "Sketchup 3D Modeling Services",
       content: "Our team of highly trained engineers, architects, drafters, and other specialists provides high-quality SketchUp modelling services that meet the needs of your project. Furthermore, we are equipped with the most recent technology as well as industry-specific knowledge, which allows us to provide efficient and precise services.",
-      image: "autoCad1.jpg"
+      image: "sketchup-1.jpg"
     },
     2: {
-      title: "Sketchup to CAD conversion service",
-      content: "If you have SketchUp designs that you want to convert into CAD designs, our services can help you. You can have your designs converted into editable CAD design format using our SketchUp services, necessary infrastructure, and our team of professionals.",
-      image: "autoCad1.jpg"
+      title: "CAD to Sketchup conversion service",
+      content: "If you have CAD designs that you want to convert into SketchUp designs, our services can help you. You can have your designs converted into editable SketchUp design format using our CAD services, necessary infrastructure, and our team of professionals.",
+      image: "sketchup-1.jpg"
     },
     3: {
       title: "Sketchup Layout",
       content: "Sketch Layout help you to present your floor plans and elevations to a specific scale, your SketchUp 3D model into 2D space with LayOut. Annotate, document, and communicate clearly so you can move your project forward.",
-      image: "autoCad1.jpg"
+      image: "sketchup-1.jpg"
     }
   }
   return (
