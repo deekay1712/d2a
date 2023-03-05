@@ -53,7 +53,7 @@ export default function Team() {
                         <p className="teamMemberName">Jasmine Sharma</p>
                     </div>
                     <div className="teamMemberDesignationWrapper">
-                        <p className="teamMemberDesignation">Sr. BDM</p>
+                        <p className="teamMemberDesignation">Business Development</p>
                     </div>
                 </div>
 
