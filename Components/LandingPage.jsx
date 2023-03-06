@@ -1,10 +1,16 @@
 import Link from 'next/link';
+import{ useStore } from "../store"
 
 export default function LandingPage() {
+    const { state } = useStore();
     return (
-        <div className="landingPageWrapper">
+        <div className={state.isIndia? "landingPageWrapper" : "landingPageWrapperOutsourcing" }>
             <div className="landingPage">
-                <p className="landingPageTitle">D2A Atelier consists the highest caliber of design and drafting services.</p>
+                {
+                    state.isIndia ? 
+                    <p className="landingPageTitle">Architects you can depend on and a process you can trust.</p> :
+                    <p className="landingPageTitle">D2A Atelier consists the highest caliber of design and drafting services.</p>
+                }
                 <div className="landingPageButtons">
                     <div className="landingPageButton landingPageButtonOutline">
                         <Link href="/about-us">
