@@ -1,5 +1,7 @@
 import Team from "./Team"
+import { useStore } from "../store"
 export default function AboutUs() {
+  const { state } = useStore();
   return (
     <div className="aboutUsWrapper">
         <div className="aboutUsBanner">
@@ -31,12 +33,17 @@ export default function AboutUs() {
               <strong>PRIDE</strong><br/>
               All member of staff at D2A Atelier quickly develop a sense of professional pride in their work, skills, attitudes and in their own abilities due to the quality, dependability and integrity our company offers.</p>
         </div>
-        <div className="aboutUsBanner aboutUsBanner1">
-          <div className="aboutUsBannerContent">
-            <h1 className="aboutUsTextHeading">Meet Our Team</h1>
-          </div>
-        </div>
-        <Team />
+        {
+          !state.isIndia ? 
+          <>
+            <div className="aboutUsBanner aboutUsBanner1">
+              <div className="aboutUsBannerContent">
+                <h1 className="aboutUsTextHeading">Meet Our Team</h1>
+              </div>
+            </div>
+            <Team />
+          </> : null
+        }
     </div>
   )
 }
