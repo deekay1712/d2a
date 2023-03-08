@@ -44,13 +44,12 @@ export default function Home() {
             <HomeServices />
             <HomeAbout />
             {
-                state.isIndia && <>
-
-            <HomeCards />
-            <HomeTestimonials />
+                state.isIndia && 
+                
+                <>
+                    <HomeCards />
                 </>
             }
-            {/* <HomeWhyUs /> */}
         </>
     );
 }
