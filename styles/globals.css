@@ -16,8 +16,8 @@
 @import "../Components/superFooter.css";
 @import "../Components/homeServices.css";
 @import "../Components/homeTestimonials.css";
-@import "../Components/servicesOfferedOutsourcing.css";
-@import "../Components/outsourcingServicesComponent.css";
+@import "../Components/Outsourcing/servicesO.css";
+@import "../Components/Outsourcing/serviceComponentO.css";
 @import"../Components/faq.css";
 @import "../Components/team.css";
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka:wght@300;400;500;600&display=swap');

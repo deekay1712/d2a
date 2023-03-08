@@ -1,4 +1,4 @@
-import ThreeDVisualizationComponent from "../../Components/ThreeDVisualizationComponent";
+import ThreeDVisualizationComponent from "../../Components/Outsourcing/ThreeDVisualizationComponent";
 export default function visualization() {
     return (
         <ThreeDVisualizationComponent/>

@@ -1,4 +1,4 @@
-import BimComponent from "../../Components/BimComponent"
+import BimComponent from "../../Components/Outsourcing/BimComponent"
 export default function bim(){
     return(
         <BimComponent/>
