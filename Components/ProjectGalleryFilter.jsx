@@ -10,8 +10,9 @@ export default function ProjectGalleryFilter() {
     <>
     <div className="filterButtonWrapper">
         <span  className={`filterButton ${filter==`All`? 'filterButtonSelected':``}`} onClick={()=>filterButton("All")}>All Projects</span>
-        <span className={`filterButton ${filter==`Residential`? 'filterButtonSelected':``}`} onClick={()=>filterButton("Residential")}>Residential</span>
-        <span className={`filterButton ${filter==`Turnkey`? 'filterButtonSelected':``}`} onClick={()=>filterButton("Turnkey")}>Turnkey</span>
+        <span className={`filterButton ${filter==`Architecture`? 'filterButtonSelected':``}`} onClick={()=>filterButton("Architecture")}>Architecture</span>
+        <span className={`filterButton ${filter==`Interior`? 'filterButtonSelected':``}`} onClick={()=>filterButton("Interior")}>Interior</span>
+        <span className={`filterButton ${filter==`Landscape`? 'filterButtonSelected':``}`} onClick={()=>filterButton("Landscape")}>Landscape</span>
     </div>
     <ProjectGallery filter={filter}/>
     </>
