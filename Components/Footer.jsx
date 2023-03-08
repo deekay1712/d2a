@@ -93,9 +93,12 @@ export default function Footer() {
         <a href='https://www.facebook.com/profile.php?id=100081276530407' target='_blank' rel='noreferrer' className='footerSocialLink'>
           <img src='/Assets/facebook.png' alt='facebook' className='footerSocialIcon'/>
         </a>
-        <a href='https://www.instagram.com/d2aatelier/' target='_blank' rel='noreferrer' className='footerSocialLink'>
+        {
+          state.isIndia &&
+          <a href='https://www.instagram.com/d2aatelier/' target='_blank' rel='noreferrer' className='footerSocialLink'>
           <img src='/Assets/instagram.png' alt='instagram' className='footerSocialIcon'/>
         </a>
+        }
         <a href='https://www.linkedin.com/company/d2a-atelier/' target='_blank' rel='noreferrer' className='footerSocialLink'>
           <img src='/Assets/linkedin.png' alt='linkedin' className='footerSocialIcon'/>
         </a>

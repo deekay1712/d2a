@@ -1,46 +1,14 @@
 import CarouselHome from "../Components/CarouselHome";
 import HomeServices from "../Components/HomeServices";
 import LandingPage from "../Components/LandingPage";
+import LandingPageO from "../Components/Outsourcing/LandingPageO";
 import HomeAbout from "../Components/HomeAbout";
 import HomeCards from "../Components/HomeCards";
-// import HomeWhyUs from "../Components/HomeWhyUs";
 import HomeTestimonials from "../Components/HomeTestimonials";
 import Head from 'next/head'
 import { useStore } from "../store";
 
 export default function Home() {
-    // const homeCarouselData = [
-    //   {
-    //     img: "/Assets/carousel0.jpeg",
-    //     label: ``,
-    //     caption: `Our first site visit is always free of cost.`,
-    //   },
-    //   {
-    //     img: "/Assets/carousel5.jpeg",
-    //     label: ``,
-    //     caption: `Drafting Services and Sketchup Modeling.`,
-    //   },
-    //   {
-    //     img: "/Assets/carousel1.jpeg",
-    //     label: ``,
-    //     caption: `"Convert your dreams into reality with D2A"`,
-    //   },
-    //   {
-    //     img: "/Assets/carousel2.jpeg",
-    //     label: ``,
-    //     caption: `"We are D2A Atelier"`,
-    //   },
-    //   {
-    //     img: "/Assets/carousel3.jpeg",
-    //     label: ``,
-    //     caption: `"We shape our buildings: thereafter they shape us."`
-    //   },
-    //   {
-    //     img: "/Assets/carousel4.jpeg",
-    //     label: ``,
-    //     caption: `"When we build, let us think that we build forever."`,
-    //   },
-    // ];
     const { state } = useStore();
 
     return (
@@ -69,8 +37,10 @@ export default function Home() {
                 <meta name="twitter:title" content="HOME - D2A Atelier" />
                 <meta name="twitter:image" content="/Assets/carousel1.jpeg" />
             </Head>
-            <LandingPage />
-            {/* <CarouselHome homeCarouselData={homeCarouselData} /> */}
+            {
+                state.isIndia?
+                <LandingPage /> : <LandingPageO />
+            }
             <HomeServices />
             <HomeAbout />
             {
