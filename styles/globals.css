@@ -40,6 +40,11 @@ a, a:hover, a:focus, a:active {
   text-decoration: inherit !important;
   color: inherit !important;
 }
+br{
+  display: block;
+  content: ""; 
+  margin-top: 10px; 
+}
 * {
   box-sizing: border-box;
 }
