@@ -15,20 +15,21 @@
     background-size: cover;
 }
 .landingPage{
-    background: rgba(0,0,0,0.5);
-    margin-left: 150px;
-    padding: 3vw;
-    width: calc(700px + 0.5vw);
+    background: rgba(0,0,0,0.6);
+    padding: 6vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
 .landingPageTitle {
-    font-size: calc(36px + 0.5vw);
+    font-size: calc(48px + 0.5vw);
     color: #fff;
+    text-align: center;
 }
 .landingPageButtons{
     margin-top: 3vw;
     display: flex;
+    justify-content: center;
 }
 .landingPageButton{
     border-radius: 50px;
@@ -65,15 +66,12 @@
     .landingPageWrapper{
         align-items: center;
     }
-    .landingPage{
-        margin-left: 0px;
-        width: fit-content;
-    }
     .landingPageTitle {
         font-size: calc(24px + 0.5vw);
     }
     .landingPageButtons{
         flex-direction: column;
+        align-items: center;
     }
 
     .landingPageButtonFill{

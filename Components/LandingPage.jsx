@@ -4,12 +4,19 @@ export default function LandingPage() {
     return (
         <div className= "landingPageWrapper">
             <div className="landingPage">
-                <p className="landingPageTitle">Architects you can depend on and a process you can trust.</p> :
+                <p className="landingPageTitle">Architects you can depend on <br/> and a process you can trust.</p> :
                 <div className="landingPageButtons">
                     <div className="landingPageButton landingPageButtonOutline">
-                        <Link href="/about-us">
+                        <Link href="/services">
                             <a>
-                                Know More About Us
+                                Services We Offer
+                            </a>
+                        </Link>
+                    </div>
+                    <div className="landingPageButton landingPageButtonFill">
+                        <Link href="/portfolio">
+                            <a>
+                                Our Projects
                             </a>
                         </Link>
                     </div>
