@@ -45,9 +45,9 @@ export default function Home() {
             <HomeAbout />
             {
                 state.isIndia && 
-                
                 <>
                     <HomeCards />
+                    <HomeTestimonials />
                 </>
             }
         </>
