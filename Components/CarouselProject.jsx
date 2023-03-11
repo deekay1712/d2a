@@ -5,7 +5,7 @@ export default function CarouselProject(props) {
   <div className='carouselProjectWrapper'>
       <Carousel variant="dark">
         {props.carouselData.image.map((item, index) => {
-          return (<Carousel.Item interval={1500} key={index}>
+          return (<Carousel.Item interval={1000} key={index}>
             <img className="d-block carouselProjectImage" src={item} alt="One"/>
           </Carousel.Item>)
         })}
