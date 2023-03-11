@@ -9,12 +9,12 @@ export default function HomeCards() {
 
         <div className="homeCard">
           <div className="homeCardImgDiv">
-            <img src={projectData[8].image[0]} alt="Img" />
+            <img src={projectData[0].image[0]} alt="Img" />
           </div>
           <div className='homeCardDesc'>
-            <p className='homeCardDescText'>{projectData[8].description}</p>
+            <p className='homeCardDescText'>{projectData[28].description}</p>
           </div>
-          <Link href={`/portfolio/${projectData[8].id}`}>
+          <Link href={`/portfolio/${projectData[0].id}`}>
             <a className="homeCardButton">
               More <span>&#8594;</span>
             </a>
@@ -23,12 +23,12 @@ export default function HomeCards() {
         
         <div className="homeCard">
           <div className="homeCardImgDiv">
-            <img src={projectData[9].image[0]} alt="Img" />
+            <img src={projectData[28].image[0]} alt="Img" />
           </div>
           <div className='homeCardDesc'>
-            <p className='homeCardDescText'>{projectData[9].description}</p>
+            <p className='homeCardDescText'>{projectData[28].description}</p>
           </div>
-          <Link href={`/portfolio/${projectData[9].id}`}>
+          <Link href={`/portfolio/${projectData[28].id}`}>
             <a className="homeCardButton">
               More <span>&#8594;</span>
             </a>
@@ -37,12 +37,12 @@ export default function HomeCards() {
 
         <div className="homeCard">
           <div className="homeCardImgDiv">
-            <img src={projectData[15].image[0]} alt="Img" />
+            <img src={projectData[34].image[0]} alt="Img" />
           </div>
           <div className='homeCardDesc'>
-            <p className='homeCardDescText'>{projectData[15].description}</p>
+            <p className='homeCardDescText'>{projectData[34].description}</p>
           </div>
-          <Link href={`/portfolio/${projectData[15].id}`}>
+          <Link href={`/portfolio/${projectData[34].id}`}>
             <a className="homeCardButton">
               More <span>&#8594;</span>
             </a>

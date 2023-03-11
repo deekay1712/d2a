@@ -1,7 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 
 export default function CarouselProject(props) {
-  console.log(props)
   return (
   <div className='carouselProjectWrapper'>
       <Carousel variant="dark">
