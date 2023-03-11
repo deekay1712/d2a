@@ -74,7 +74,8 @@ export default function Footer() {
         <li className='footerListItem'>
           <a href='https://goo.gl/maps/vnCG1ZEpT2ete9zp8' target='_blank' rel='noreferrer' className='footerLink footerContent'>
             <img src='/Assets/ic-home.png' alt='location' className='footerContactIcon'/>
-            H-310, <br/>Dr.Ambedkar Nagar, Block H, <br/>Sector 5, Dakshinpuri, <br/>New Delhi, Delhi 110062</a>
+            Lajpat Nagar Part-1, <br />New Delhi, 110024
+          </a>
         </li>
         <li className='footerListItem'>
           <a href='tel:+919990632664' className='footerLink footerContent'>
