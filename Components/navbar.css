@@ -107,7 +107,23 @@
     transform: rotate(-35deg);
 }
 
-
+.whatsappChatButton{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	color: #FFF !important;
+	border-radius: 10px;
+    background-color: #25D366;
+	text-align: center;
+    padding: 8px 15px;
+}
+.whatsappChatButton:hover, .whatsappChatButton:focus, .whatsappChatButton:active{
+    color: #FFF !important;
+}
+.whatsappChatButton img{
+    width: 32px;
+    margin-right: 10px;
+}
 
 @media (max-width: 992px) {
     .navbarWrapper {
@@ -144,6 +160,13 @@
     }
     .navItem::after{
         display: none;
+    }
+    .whatsappChatButton{
+        bottom: 20px;
+        right: 20px;
+    }
+    .whatsappChatButton img{
+        width: 28px;
     }
 
 }

@@ -44,6 +44,10 @@ export default function Navbar() {
                     <div className={`toggleButtonLine ${!toggle ? '' : 'cross'}`}></div>
                 </button>
             </div>
+            <a href='https://wa.me/919990632664' target='_blank' rel="noreferrer" className='whatsappChatButton'>
+                <img src='/Assets/whatsapp.png' alt='whatsapp' />
+                Work with us?
+            </a>
         </div>
     )
 }
