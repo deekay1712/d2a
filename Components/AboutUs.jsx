@@ -45,10 +45,10 @@ export default function AboutUs() {
           </div>
           <div className="aboutUsText">
               <h1 className="aboutUsTextHeading">Our History</h1>
-              <p className="aboutUsTextContent">D2A Atelier was founded in 2020 by its Founder & CEO D.K. Jaishwal and Co-Founder & Managing Director Rajesh Kumar. The company has enough experience and creative minds to achive the goal and give a path to the next generation. <br/>D2A Atelier has grown its clientele rapidly since 2020 with a high level of satisfaction in their shop drawing services through their excellent man management, communication and high quality detailing.</p>
+              <p className="aboutUsTextContent">D2A Atelier was founded in 2020 by its Founder & CEO D.K. Jaishwal and Co-Founder & Managing Director Rajesh Kumar. The company has enough experience and creative minds to achieve the goal and give a path to the next generations. <br/>D2A Atelier has grown its clientele rapidly since 2020 with a high level of satisfaction in their shop drawing services through their excellent man management, communication and high quality detailing.</p>
               <h1 className="aboutUsTextHeading">Who we are?</h1>
-              <p className="aboutUsTextContent">D2A Atelier is an established business based in New Delhi.The company hold a combined experience of 8 years in the shop drawing drafting services fulfilling the needs of clients across a diverse scope within the residential, commercial and industrial sectors. <br/>
-              We are well equipped to offer reliable. soilutions to the modern architectural millwork industry. Our business prides itself on listening to our clients&#39; needs and strives to understand their standard for shop drawings.<br/>
+              <p className="aboutUsTextContent">D2A Atelier is an established business based in New Delhi. The company hold a combined experience of 8 years in the shop drawing drafting services fulfilling the needs of clients across a diverse scope within the residential, commercial and industrial sectors. <br/>
+              We are well equipped to offer reliable solutions to the modern architectural millwork industry. Our business prides itself on listening to our clients needs and strives to understand their standard for shop drawings.<br/>
               Our vision is &#34;To succeed by delivering a reliable service with a high level of professionalism&#34;. We take this very seriously and offer our list of services below to you as a potential or ongoing client.</p>
               <h1 className="aboutUsTextHeading">Our values</h1>
               <p className="aboutUsTextContent">

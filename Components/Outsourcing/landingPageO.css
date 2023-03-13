@@ -14,13 +14,18 @@
     background: rgba(0,0,0,0.5);
     margin-left: 150px;
     padding: 3vw;
-    width: calc(700px + 0.5vw);
+    width: calc(900px + 0.5vw);
     justify-content: center;
     align-items: center;
 }
 .landingPageOTitle {
     font-size: calc(36px + 0.5vw);
     color: #fff;
+}
+.landingPageText{
+    font-size: calc(12px + 0.5vw);
+    color: #fff;
+    margin-top: 1.5vw !important;
 }
 .landingPageOButtons{
     margin-top: 3vw;

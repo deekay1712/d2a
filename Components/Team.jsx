@@ -39,7 +39,7 @@ export default function Team() {
                 </div>
                 <div className="teamMemberBio">
                     <p className="teamMemberBioText">
-                    Rajesh Kumar has worked at the Skets Studio and HBA International, are most experienced companies in outsourcing and designing industry. He has enough knowledge and experience to manage the projects and deliver in estimated time. Kumar is using his past exeperinece to grow the company and to making generations to more knowledgeable and skillfull for future.
+                    Rajesh Kumar has worked at the Skets Studio and HBA International, are most experienced companies in outsourcing and designing industry. He has enough knowledge and experience to manage the projects and deliver in estimated time. Kumar is using his past experience to grow the company and to making generations to more knowledgeable and skillfull for future.
                     </p>
                 </div>
             </div>
