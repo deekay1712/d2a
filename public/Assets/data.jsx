@@ -1,5 +1,5 @@
 const projectData = [
-    {id:"1", name: "", address: "", type: "Architecture", description: ``, image: ["/Assets/Projects/1-0.jpg", "/Assets/Projects/1-1.jpg"]},
+    {id:"1", name: "", address: "", type: "Architecture", description: `This building is properly based on modern architecture and material, finishes or smart hardware are increasing the convenience of the house. We mostly used smart appliances in the building like- smart locks, smart doors which are fully automatic. It was the first proper elevation design which we completed totally with the help of our core team. We believe in designing buildings and spaces that are relevant, responsive and add meaning in the largest fabric through the smallest detail. Sometimes it is best to emphasize the most obvious rather than try to hide it. In this tall building our team has chosen to highlight it.`, image: ["/Assets/Projects/1-0.jpg", "/Assets/Projects/1-1.jpg"]},
     {id:"2", name: "", address: "", type: "Architecture", description: ``, image: ["/Assets/Projects/2-0.jpg"]},
     {id:"3", name: "", address: "", type: "Architecture", description: ``, image: ["/Assets/Projects/3-0.jpg"]},
     {id:"4", name: "", address: "", type: "Architecture", description: ``, image: ["/Assets/Projects/4-0.jpeg"]},
