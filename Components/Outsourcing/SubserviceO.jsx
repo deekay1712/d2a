@@ -1,4 +1,6 @@
-export default function SubserviceO({title, content, image}) {
+import CarouselService from "./CarouselService"
+
+export default function SubserviceO({title, content, images}) {
     return(
         <div className="subserviceOWrapper">
             <div className="subserviceOContent">
@@ -8,8 +10,11 @@ export default function SubserviceO({title, content, image}) {
             <div className="subserviceOSeparator">
                 
             </div>
-            <div className="subserviceOImage">
+            {/* <div className="subserviceOImage">
                 <img src={`/Assets/OutsourcingServices/${image}`} alt="outsourcing service" />
+            </div> */}
+            <div className="subserviceOImageCarousel">
+                <CarouselService images={images} />
             </div>
         </div>
     )

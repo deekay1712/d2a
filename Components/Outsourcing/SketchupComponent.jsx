@@ -9,17 +9,35 @@ export default function SketchupComponent() {
     1: {
       title: "Sketchup 3D Modeling Services",
       content: "Our team of highly trained engineers, architects, drafters, and other specialists provides high-quality SketchUp modelling services that meet the needs of your project. Furthermore, we are equipped with the most recent technology as well as industry-specific knowledge, which allows us to provide efficient and precise services.",
-      image: "sketchup-1.jpg"
+      images: [
+        {
+          img: "/Assets/OutsourcingServices/sketchup-1.jpg" ,
+          label: ``,
+          caption: ``,
+        }
+      ]
     },
     2: {
       title: "CAD to Sketchup conversion service",
       content: "If you have CAD designs that you want to convert into SketchUp designs, our services can help you. You can have your designs converted into editable SketchUp design format using our CAD services, necessary infrastructure, and our team of professionals.",
-      image: "sketchup-1.jpg"
+      images: [
+        {
+          img: "/Assets/OutsourcingServices/sketchup-1.jpg" ,
+          label: ``,
+          caption: ``,
+        }
+      ]
     },
     3: {
       title: "Sketchup Layout",
       content: "Sketch Layout help you to present your floor plans and elevations to a specific scale, your SketchUp 3D model into 2D space with LayOut. Annotate, document, and communicate clearly so you can move your project forward.",
-      image: "sketchup-1.jpg"
+      images: [
+        {
+          img: "/Assets/OutsourcingServices/sketchup-1.jpg" ,
+          label: ``,
+          caption: ``,
+        }
+      ]
     }
   }
   return (
@@ -34,7 +52,7 @@ export default function SketchupComponent() {
               <span  className={`serviceComponentOFilterButton ${filter===2? 'serviceComponentOFilterButtonSelected':``}`} onClick={()=>filterButton(2)}>Sketchup to CAD conversion service</span>
               <span  className={`serviceComponentOFilterButton ${filter===3? 'serviceComponentOFilterButtonSelected':``}`} onClick={()=>filterButton(3)}>Sketchup Layout</span>
             </div>
-          <SubserviceO title={data[filter].title} content={data[filter].content} image={data[filter].image}/>
+          <SubserviceO title={data[filter].title} content={data[filter].content} images={data[filter].images}/>
         </div>
     </div>
   );
