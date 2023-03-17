@@ -23,7 +23,6 @@
     color: #fff;
 }
 .landingPageText{
-    font-size: calc(12px + 0.5vw);
     color: #fff;
     margin-top: 1.5vw !important;
 }
@@ -33,11 +32,10 @@
 }
 .landingPageOButton{
     border-radius: 50px;
-    font-size: calc(12px + 0.5vw);
     margin-right: 20px;
     transition: all 0.3s ease-in-out;
     padding: 10px 20px;
-    font-weight: 400;
+    font-weight: 600;
     cursor: pointer;
     height: min-content;
     width: fit-content;

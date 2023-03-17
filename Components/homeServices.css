@@ -6,7 +6,6 @@
 .homeServicesHeading{
     width: 100%;
     text-align: center;
-    font-size: calc(22px + 0.5vw);
     margin-bottom: 20px;
 }
 .homeServicesCards{
@@ -30,16 +29,12 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 .homeServicesCardTitle{
-    font-size: calc(13px + 0.5vw);
-    font-weight: 400;
     margin-bottom: 10px;
 }
 .homeServicesCardDescription{
-    font-size: calc(12px + 0.5vw);
     padding-bottom: 10px;
     text-align: center;
 }
-.homeServicesCardButton a{
-    font-size: calc(10px + 0.5vw);
-    font-weight: 500;
+.homeServicesKnowMore{
+    font-weight: 600;
 }

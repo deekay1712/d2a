@@ -10,7 +10,6 @@
 .homeAboutHeading{
     width: 100%;
     text-align: center;
-    font-size: calc(22px + 0.5vw);
     margin-bottom: 20px;
 }
 /* .homeAboutText{
@@ -50,21 +49,17 @@
     flex: 0.1;
     background-color: rgba(86, 102, 122, 0.1);
 }
-.homeAboutSectionHeading{
-    font-size: calc(22px + 0.5vw);;
-}
 .homeAboutSectionText{
-    font-size: calc(12px + 0.5vw);
     text-align: center;
 }
 .homeAboutBtn{
-    font-size: 16px;
     padding: 10px 20px;
     margin-top: 20px;
     border-radius: 50px;
     outline: 2px solid #070707;
     cursor: pointer;
     transition: all 0.3s ease;
+    font-weight: 600;
 }
 .homeAboutBtn:hover{
     background-color: #070707;
@@ -105,7 +100,6 @@
         height: 141px;
     }
     .homeAboutBtn{
-        font-size: 14px;
         margin-top: 10px;
     }
 }

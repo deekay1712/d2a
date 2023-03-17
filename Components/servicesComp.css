@@ -8,7 +8,6 @@
 }
 .serviceBannerContent{
     position: absolute;
-    font-size: calc(22px + 0.5vw);
     bottom: 0px;
     width: 100%;
     height: 100%;
@@ -17,9 +16,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.serviceBannerHeading{
-    font-size: calc(22px + 0.5vw);
+    font-size: clamp(1.625rem, 1.5592rem + 0.2632vw, 1.875rem);
 }
 .serviceL, .serviceR{
     display: flex;
@@ -55,8 +52,6 @@
     justify-content: center;
 }
 .serviceTextHeadingL, .serviceTextHeadingR{
-    font-size: calc(16px + 0.5vw);
-    font-weight: semi-bold;
     text-transform: uppercase;
     margin-bottom: 9px !important;
 }
@@ -71,12 +66,10 @@
 .serviceTextContentL{
     width: 100%;
     text-align: left;
-    font-size: calc(12px + 0.5vw);
 }
 .serviceTextContentR{
     width: 100%;
     text-align: right;
-    font-size: calc(12px + 0.5vw);
 }
 
 @media (max-width: 1400px){

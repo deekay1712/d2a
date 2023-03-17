@@ -14,7 +14,7 @@ export default function HomeServices() {
                         <p className="homeServicesCardDescription">At D2A Atelier, we specialize in creating exceptional architectural designs.</p>
                         <div className="homeServicesCardButton">
                             <Link href="/services">
-                                <a>
+                                <a className='homeServicesKnowMore'>
                                     Know More
                                 </a>
                             </Link>
@@ -25,7 +25,7 @@ export default function HomeServices() {
                         <p className="homeServicesCardDescription">Transform your space into a work of art with our innovative interior design solutions.</p>
                         <div className="homeServicesCardButton">
                             <Link href="/services">
-                                <a>
+                                <a className='homeServicesKnowMore'>
                                     Know More
                                 </a>
                             </Link>
@@ -36,7 +36,7 @@ export default function HomeServices() {
                         <p className="homeServicesCardDescription">Enhance the beauty of your outdoor spaces with D2A Atelier&#39;s expert landscaping services.</p>
                         <div className="homeServicesCardButton">
                             <Link href="/services">
-                                <a>
+                                <a className='homeServicesKnowMore'>
                                     Know More
                                 </a>
                             </Link>
@@ -56,7 +56,7 @@ export default function HomeServices() {
                         <p className="homeServicesCardDescription">D2A offers precision and accuracy in technical drawings with our AutoCAD Drafting Service.</p>
                         <div className="homeServicesCardButton">
                             <Link href="/services-we-offer/auto-cad/">
-                                <a>
+                                <a className='homeServicesKnowMore'>
                                     Know More
                                 </a>
                             </Link>
@@ -67,7 +67,7 @@ export default function HomeServices() {
                         <p className="homeServicesCardDescription">Bring your ideas to life with D2A&#39;s expert SketchUp services and unleash your creative potential.</p>
                         <div className="homeServicesCardButton">
                             <Link href="/services-we-offer/sketchup/">
-                                <a>
+                                <a className='homeServicesKnowMore'>
                                     Know More
                                 </a>
                             </Link>
@@ -78,7 +78,7 @@ export default function HomeServices() {
                         <p className="homeServicesCardDescription">Experience comprehensive project planning and management with D2A&#39;s BIM services.</p>
                         <div className="homeServicesCardButton">
                             <Link href="/services-we-offer/bim/">
-                                <a>
+                                <a className='homeServicesKnowMore'>
                                     Know More
                                 </a>
                             </Link>
@@ -89,7 +89,7 @@ export default function HomeServices() {
                         <p className="homeServicesCardDescription">D2A&#39;s 3D Visualization services bring your designs to life with stunning realism.</p>
                         <div className="homeServicesCardButton">
                             <Link href="/services-we-offer/3d-visualization/">
-                                <a>
+                                <a className='homeServicesKnowMore'>
                                     Know More
                                 </a>
                             </Link>

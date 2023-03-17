@@ -10,26 +10,20 @@
     justify-content: center;
 }
 .aboutUsBannerContent{
-    font-size: 30px;
     color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.aboutUsBannerHeading{
-    font-size: calc(22px + 0.5vw);
-}
 .aboutUsText{
     padding: 6vw;
 }
 .aboutUsTextContent{
-    font-size: calc(12px + 0.5vw);
     margin-bottom: 10px !important;
 }
 
 .aboutUsTextHeading{
-    font-size: calc(22px + 0.5vw);
     margin: 3vw 0 10px 0;
 }
 
