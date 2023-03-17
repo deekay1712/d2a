@@ -1,4 +1,3 @@
-import CarouselHome from "../Components/CarouselHome";
 import HomeServices from "../Components/HomeServices";
 import LandingPage from "../Components/LandingPage";
 import LandingPageO from "../Components/Outsourcing/LandingPageO";
