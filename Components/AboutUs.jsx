@@ -16,7 +16,7 @@ export default function AboutUs() {
               <h1 className="aboutUsTextHeading">Our History</h1>
               <p className="aboutUsTextContent">D2A Atelier was founded in 2020 by its Founder & CEO D.K. Jaishwal and Co-Founder & Managing Director Rajesh Kumar. The company has enough experience and creative minds to achive the goal and give a path to the next generation. <br/>D2A Atelier has grown its clientele rapidly since 2020 with a high level of satisfaction in their architectural practices through their excellent team management, communication and ultra luxurious designs.</p>
               <h1 className="aboutUsTextHeading">Who we are?</h1>
-              <p className="aboutUsTextContent">Our whole process is about opening up to new ideas and pushing beyond the predictable. Because even though we have done this many times before, we haven't designed your exact project before. Whether it be making gutsy decisions or keeping things simple, every project calls for a different approach. <br />
+              <p className="aboutUsTextContent">Our whole process is about opening up to new ideas and pushing beyond the predictable. Because even though we have done this many times before, we haven&#39;t designed your exact project before. Whether it be making gutsy decisions or keeping things simple, every project calls for a different approach. <br />
               This openness is what you can expect when you choose us as your architects.<br/>
               Our vision is &#34;To succeed by delivering a reliable service with a high level of professionalism&#34;. We take this very seriously and offer our list of services to you as a potential or ongoing client.</p>
               <h1 className="aboutUsTextHeading">Our values</h1>
