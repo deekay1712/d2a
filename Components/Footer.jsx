@@ -74,7 +74,10 @@ export default function Footer() {
         <li className='footerListItem'>
           <a href='https://goo.gl/maps/vnCG1ZEpT2ete9zp8' target='_blank' rel='noreferrer' className='footerLink footerContent'>
             <img src='/Assets/ic-home.png' alt='location' className='footerContactIcon'/>
-            S-469, GK-1 <br />Basement Floor, <br />New Delhi, 110048
+            S-469, <br />
+            Basement Floor, <br />
+            Greater Kailash-1 <br />
+            New Delhi, Delhi 110048
           </a>
         </li>
         <li className='footerListItem'>
