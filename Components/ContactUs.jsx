@@ -24,7 +24,10 @@ export default function ContactUs() {
                 <li className="contactUsBannerListItem">
                     <a href='https://goo.gl/maps/vnCG1ZEpT2ete9zp8' target='_blank' rel='noreferrer' className='contactUsBannerLink'>
                         <img src='/Assets/ic-location.svg' alt='location' className='contactUsBannerIcon'/>
-                        Lajpat Nagar Part-1, <br />New Delhi, 110024
+                        S-469, <br />
+                        Basement Floor, <br />
+                        Greater Kailash-1 <br />
+                        New Delhi, Delhi 110048
                     </a>
                 </li>
                 <li className="contactUsBannerListItem">
