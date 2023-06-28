@@ -1,0 +1,95 @@
+.teamWrapper{
+    padding: 6vw;
+    font-size: calc(12px + 0.5vw);
+}
+.teamFounder{
+    display: flex;
+    margin-bottom: 6vw;
+}
+.teamMemberBlock{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teamMemberBio{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamFounderImageContainer{
+    height: 250px;
+    width: 250px;
+}
+.teamMemberImage{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.teamMemberNameWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.teamMemberLinkedinIcon{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.teamMemberDesignationWrapper{
+    margin-top: 10px;
+}
+.teamMembers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 6vw 0;
+}
+.teamMemberImageContainer{
+    height: 200px;
+    width: 200px;
+}
+
+@media(max-width: 992px){
+    .teamFounderImageContainer{
+        height: 200px;
+        width: 200px;
+    }
+    .teamMemberImageContainer{
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media(max-width: 768px){
+    .teamFounder{
+        flex-direction: column;
+    }
+    .teamFounderImageContainer{
+        height: 150px;
+        width: 150px;
+    }
+    .teamMemberImageContainer{
+        height: 120px;
+        width: 120px;
+    }
+    .teamMemberNameWrapper{
+        margin-top: 10px;
+    }
+    .teamMemberDesignationWrapper{
+        margin-top: 5px;
+    }
+    .teamMembers{
+        flex-direction: column;
+        margin: 0;
+    }
+    .teamMemberBlock{
+        margin: 3vw;
+    }
+}

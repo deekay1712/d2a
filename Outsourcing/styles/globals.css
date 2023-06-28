@@ -1,0 +1,66 @@
+@import "../Components/Outsourcing/carouselService.css";
+@import "../Components/landingPage.css";
+@import "../Components/Outsourcing/landingPageO.css";
+@import "../Components/navbar.css";
+@import "../Components/footer.css";
+@import "../Components/projectGallery.css";
+@import "../Components/servicesComp.css";
+@import "../Components/projectDesc.css";
+@import "../Components/carouselProject.css";
+@import "../Components/contactUs.css";
+@import "../Components/homeAbout.css";
+@import "../Components/homeCards.css";
+@import "../Components/aboutUs.css";
+@import "../Components/projectGalleryFilter.css";
+@import "../Components/homeWhyUs.css";
+@import "../Components/superFooter.css";
+@import "../Components/homeServices.css";
+@import "../Components/homeTestimonials.css";
+@import "../Components/Outsourcing/servicesO.css";
+@import "../Components/Outsourcing/serviceComponentO.css";
+@import"../Components/faq.css";
+@import "../Components/team.css";
+/* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fredoka:wght@300;400;500;600&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;500;600;700&display=swap'); */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700 !important;
+}
+h1{
+  font-size: clamp(1.625rem, 1.5592rem + 0.2632vw, 1.875rem) !important;
+}
+h2{
+  font-size: clamp(1.125rem, 1.0592rem + 0.2632vw, 1.375rem) !important;
+}
+p, a, ul, li, button{
+  font-family: 'Open Sans', sans-serif;
+  font-size: clamp(0.875rem, 0.8092rem + 0.2632vw, 1.125rem);
+}
+p, ul{
+  margin: 0 !important;
+}
+button > a{
+  font-weight: 600 !important;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+* {
+  box-sizing: border-box;
+}
+.faqsWrapper{
+  padding: 3vw 6vw 6vw 6vw;
+}
+
+.faqsHeading{
+  text-align: center;
+  font-size: calc(22px + 0.5vw);
+  margin-bottom: 20px;
+}

@@ -1,0 +1,81 @@
+.landingPageOWrapper{
+    height: 100vh;
+    width: 100%;
+    background: url(/Assets/landingPageOutsourcing.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: -60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.landingPageO{
+    background: rgba(0,0,0,0.5);
+    margin-left: 150px;
+    padding: 3vw;
+    width: calc(900px + 0.5vw);
+    justify-content: center;
+    align-items: center;
+}
+.landingPageOTitle {
+    font-size: calc(36px + 0.5vw);
+    color: #fff;
+}
+.landingPageText{
+    color: #fff;
+    margin-top: 1.5vw !important;
+}
+.landingPageOButtons{
+    margin-top: 3vw;
+    display: flex;
+}
+.landingPageOButton{
+    border-radius: 50px;
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    height: min-content;
+    width: fit-content;
+}
+.landingPageOButtonOutline{
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+.landingPageOButtonOutline:hover{
+    background: #ffffff;
+    color: #000000;
+}
+.landingPageOButtonFill{
+    background: #ffffff;
+    border: 2px solid #ffffff;
+
+    color: #000000;
+}
+.landingPageOButtonFill:hover{
+    background: #bcbaba;
+    border: 2px solid #bcbaba;
+}
+
+@media (max-width: 1080px) {
+    .landingPageOWrapper{
+        align-items: center;
+    }
+    .landingPageO{
+        margin-left: 0px;
+        width: fit-content;
+    }
+    .landingPageOTitle {
+        font-size: calc(24px + 0.5vw);
+    }
+    .landingPageOButtons{
+        flex-direction: column;
+    }
+
+    .landingPageOButtonFill{
+        margin-top: 1.5vw;
+    }
+}

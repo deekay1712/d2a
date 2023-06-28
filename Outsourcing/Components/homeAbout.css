@@ -1,0 +1,105 @@
+.homeAboutWrapper{
+    background-color: #ffffff;
+    padding: 6vw;
+    color: #070707;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeAboutHeading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* .homeAboutText{
+    width: 100%;
+    text-align: center;
+    font-size: calc(12px + 0.5vw);
+    font-weight: 400;
+} */
+.homeAboutSection1, .homeAboutSection2{
+    display: flex;
+    padding: 0 0 20px 0;
+}
+.homeAboutSectionLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(86, 102, 122, 0.1);
+    padding: 20px;
+}
+.homeAboutSectionImg{
+    object-fit: cover;
+    width: 100%;
+    height: 309px;
+}
+.homeAboutSectionRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(86, 102, 122, 0.1);
+    padding: 20px;
+}
+.homeAboutSectionMiddle{
+    flex: 0.1;
+    background-color: rgba(86, 102, 122, 0.1);
+}
+.homeAboutSectionText{
+    text-align: center;
+}
+.homeAboutBtn{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    outline: 2px solid #070707;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+.homeAboutBtn:hover{
+    background-color: #070707;
+    color: #ffffff !important;
+}
+@media (max-width: 1400px){
+    .homeAboutSectionImg{
+        width: 350px;
+        height: 197px;
+    }
+}
+@media (max-width: 992px){
+    .homeAboutSection1{
+        flex-direction: column;
+    }
+    .homeAboutSection2{
+        flex-direction: column-reverse;
+    }
+    .homeAboutSectionLeft{
+        align-items: center;
+    }
+    .homeAboutSectionRight{
+        align-items: center;
+    }
+    .homeAboutSectionText{
+        text-align: left;
+    }
+    .homeAboutSectionImg{
+        margin-bottom: 10px;
+    }
+    .homeAboutSectionLeft, .homeAboutSectionRight{
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 768px){
+    .homeAboutSectionImg{
+        width: 250px;
+        height: 141px;
+    }
+    .homeAboutBtn{
+        margin-top: 10px;
+    }
+}

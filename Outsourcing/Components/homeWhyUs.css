@@ -1,0 +1,52 @@
+.homeWhyUsWrapper{
+    background-color: rgba(86, 102, 122, 0.1);
+    padding: 6vw 6vw 6vw 6vw;
+    color: #070707;
+}
+.homeWhyUsHeading{
+    width: 100%;
+    text-align: center;
+    font-size: calc(22px + 0.5vw);
+    margin-bottom: 10px;
+}
+.homeWhyUsText{
+    width: 100%;
+    text-align: center;
+    font-size: calc(12px + 0.5vw);
+    font-weight: 400;
+}
+.homeWhyUsPoints{
+    margin-bottom: 5vw;
+}
+.homeWhyUsPoint{
+    display: flex;
+    margin-bottom: 10px;
+}
+.homeWhyUsPointIcon img{
+    width: calc(22px + 0.5vw);
+}
+.homeWhyUsPointText{
+    font-size: calc(12px + 0.5vw);
+    padding-left: 15px;
+}
+.homeWhyUsButton{
+    border: 1px solid #070707;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: min-content;
+    width: 203px;
+    display: block;
+}
+.homeWhyUsButton:hover{
+    background-color: #070707;
+    color: #ffffff !important;
+}
+
+@media (max-width: 768px){
+    .homeCard {
+        margin-bottom: 10px;
+    }
+}

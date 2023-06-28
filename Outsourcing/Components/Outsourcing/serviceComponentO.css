@@ -1,0 +1,116 @@
+.serviceComponentOWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.serviceComponentOHeader1, .serviceComponentOHeader2, .serviceComponentOHeader3, .serviceComponentOHeader4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc((100vh - 60px) / 2);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: 0px 200%;
+    width: 100vw;
+}
+.serviceComponentOHeader1{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/Assets/outsourcingService1.jpg');
+}
+.serviceComponentOHeader2{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/Assets/outsourcingService2.jpg');
+}
+.serviceComponentOHeader3{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/Assets/outsourcingService3.jpg');
+}
+.serviceComponentOHeader4{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/Assets/outsourcingService4.jpg');
+}
+.serviceComponentOContent{
+    padding: 6vw;
+    min-height: calc((100vh - 60px) / 2);
+}
+.serviceComponentOContentText{
+    margin: 10px 0 !important;
+}
+.serviceComponentOContentHeading{
+    margin: 0px 0 10px 0;
+
+}
+/* .serviceComponentOImages{
+    display: flex;
+    margin: 0 6vw 6vw 6vw ;
+}
+.serviceComponentOImage{
+    flex: 1;
+    margin: 15px;
+    display: flex;
+    justify-content: center; 
+}
+.serviceComponentOImage img{
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    height: 300px;
+} */
+.serviceComponentOImageCarousel{
+    padding: 0 6vw 6vw 6vw ;
+    width: 50%;
+}
+.serviceComponentOFilter{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6vw 0;
+}
+.serviceComponentOFilterButton{
+    padding: 10px;
+    border: 1px solid #56667A;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    color: #56667A;
+    margin: 0 10px 10px 0;
+    transition: all 0.2s ease;
+}
+.serviceComponentOFilterButtonSelected{
+    background-color: #56667A;
+    color: #ffffff;
+}
+.subserviceOWrapper{
+    display: flex;
+}
+.subserviceOContent{
+    flex: 1;
+}
+.subserviceOImageCarousel{
+    flex: 1;
+}
+.subserviceOSeparator{
+    flex: 0.1;
+}
+.subserviceOImage img{
+    width: 100%;
+    object-fit: cover;
+}
+
+@media(max-width: 768px){
+    .subserviceOWrapper{
+        flex-direction: column;
+    }
+    .subserviceOContent{
+        margin: 0 0 20px 0;
+    }
+    .subserviceOSeparator{
+        display: none;
+    }
+    .serviceComponentOImages{
+        flex-direction: column;
+    }
+    .serviceComponentOImageCarousel{
+        width: 100%;
+    }
+}

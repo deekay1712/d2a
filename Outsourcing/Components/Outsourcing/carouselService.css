@@ -1,0 +1,7 @@
+.carouselImage{
+    width: 100%;
+    object-fit: cover;
+}
+.homeCarouselCaption{
+    font-size: calc(14px + 0.5vw);
+}

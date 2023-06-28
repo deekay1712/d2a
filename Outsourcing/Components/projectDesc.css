@@ -1,0 +1,38 @@
+p {
+    white-space: pre-wrap;
+} 
+.projectDescWrapper{
+    display: flex;
+}
+.projectDescCarousel{
+    flex: 3;
+}
+.projectDesc{
+    flex: 1;
+    padding: 40px;
+    height: calc(100vh - 60px);
+}
+.projectDescHead{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: calc(16px + 0.5vw);
+    margin-bottom: 20px;
+}
+.projectDescText{
+    height: 85%;
+    font-size: calc(12px + 0.5vw);
+    line-height: 1.5;
+    overflow-y: auto;
+}
+
+@media (max-width: 1200px){
+    .projectDescWrapper{
+        flex-direction: column-reverse;
+    }
+    .projectDesc{
+        height: auto;
+    }
+    .projectDescText{
+        overflow-y: hidden;
+    }
+}

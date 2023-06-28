@@ -1,0 +1,33 @@
+.aboutUsBanner{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/aboutUsBanner.jpg');
+    min-height: calc((100vh - 60px) / 2);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutUsBannerContent{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutUsText{
+    padding: 6vw;
+}
+.aboutUsTextContent{
+    margin-bottom: 10px !important;
+}
+
+.aboutUsTextHeading{
+    margin: 3vw 0 10px 0;
+}
+
+.aboutUsBanner1{
+    min-height: calc((100vh - 60px) / 2);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/Assets/aboutUs1.jpeg');
+}

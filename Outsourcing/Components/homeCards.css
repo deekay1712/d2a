@@ -1,0 +1,96 @@
+@keyframes arrowSidewise{
+    0% {
+        transform: translateX(3px);
+    }
+    50% {
+        transform: translateX(9px);
+    }
+    100% {
+        transform: translateX(3px);
+    }
+}
+.homeCardsComp{
+    padding: 6vw;
+    background-color: rgba(86, 102, 122, 0.1);
+}
+.featuredProjectsHeading{
+    width: 100%;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 10px;
+}
+.homeCardsWrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.homeCard{
+    position: relative;
+    width: calc(80vw / 3);
+    margin: 1vw;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.homeCardImgDiv{
+    position: relative;
+    height: calc(80vw / 5);
+    width: 100%;
+}
+.homeCardImgDiv img{
+    object-fit: cover;
+    height: calc(80vw / 5);
+    width: 100%;
+}
+.homeCardDesc{
+    padding: 20px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.homeCardDescText{
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.homeCardButton{
+    padding: 0 20px 10px 0;
+    position: absolute;
+    top: 100%;
+    transform: translate(-100%, -100%);
+    left: 100%;
+    font-weight: 600;
+    display: flex;
+}
+.homeCardButton span{
+    animation: arrowSidewise 1s linear infinite;
+}
+
+@media (max-width: 992px){
+    .homeCard{
+        width: calc(80vw / 2);
+    }
+    .homeCardImgDiv{
+        height: calc(80vw / 4);
+    }
+    .homeCardImgDiv img{
+        height: calc(80vw / 4);
+    }
+}
+@media (max-width: 768px){
+    .homeCard{
+        width: calc(80vw / 1);
+    }
+    .homeCardImgDiv{
+        height: calc(80vw / 2);
+    }
+    .homeCardImgDiv img{
+        height: calc(80vw / 2);
+    }
+    .homeCardDesc{
+        padding: 10px 10px 20px 10px;
+    }
+    .homeCardButton{
+        padding: 0 10px 5px 0;
+    }
+}
