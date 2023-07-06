@@ -13,8 +13,8 @@ export default function AboutUs() {
 				<div className='aboutUsText'>
 					<h1 className='aboutUsTextHeading'>Our History</h1>
 					<p className='aboutUsTextContent'>
-						D2A Atelier was founded in 2020 by its Founder & CEO D.K. Jaishwal
-						and Co-Founder & Managing Director Rajesh Kumar. The company has
+						D2A Atelier was founded in 2020 by its Founder & CEO Rajesh Kumar
+						and Co-Founder & Managing Director D.K. Jaishwal. The company has
 						enough experience and creative minds to achieve the goal and give a
 						path to the next generations. <br />
 						D2A Atelier has grown its clientele rapidly since 2020 with a high
