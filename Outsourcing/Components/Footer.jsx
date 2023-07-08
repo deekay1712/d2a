@@ -1,9 +1,6 @@
 import Link from "next/link";
-import { useStore } from "../store";
 
 export default function Footer() {
-	const { state } = useStore();
-
 	return (
 		<div className='footerWrapper'>
 			<div className='footerColAbout'>

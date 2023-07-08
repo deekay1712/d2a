@@ -1,7 +1,5 @@
 import Team from "./Team";
-import { useStore } from "../store";
 export default function AboutUs() {
-	const { state } = useStore();
 	return (
 		<div className='aboutUsWrapper'>
 			<>
