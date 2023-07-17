@@ -1,0 +1,13 @@
+About Us Page changes
+
+(Rajesh Kumar CEO, Co-founder
+D.K. Jaishwal Co-founder, MD)
+
+Quick Links, Stay connected, Description Fixes
+
+FAQ (to add)
+
+Remove all Backgrounds and Images on the services page
+
+.com -> .in in all websites
+

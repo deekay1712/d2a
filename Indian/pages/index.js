@@ -36,19 +36,10 @@ export default function Home() {
                 <meta name="twitter:title" content="HOME - D2A Atelier" />
                 <meta name="twitter:image" content="/Assets/carousel1.jpeg" />
             </Head>
-            {
-                state.isIndia?
-                <LandingPage /> : <LandingPageO />
-            }
+            <LandingPage />
             <HomeServices />
             <HomeAbout />
-            {
-                state.isIndia && 
-                <>
-                    <HomeCards />
-                    <HomeTestimonials />
-                </>
-            }
+            <HomeCards />
         </>
     );
 }

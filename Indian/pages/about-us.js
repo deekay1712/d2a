@@ -28,7 +28,7 @@ export default function aboutUs() {
         <meta name="twitter:title" content="ABOUT US - D2A Atelier" />
         <meta name="twitter:image" content="/Assets/carousel1.jpeg" />
       </Head>
-      <AboutUs/>
+      <AboutUs />
     </>
   )
 }
