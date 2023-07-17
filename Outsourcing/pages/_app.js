@@ -7,7 +7,6 @@ import { useEffect } from "react"
 import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }) {
-
     const router = useRouter();
     useEffect(() => {
         const fetchCountry = async () => {
@@ -16,9 +15,13 @@ function MyApp({ Component, pageProps }) {
                 const data = await res.json();
                 console.log(data.country_name)
                 if (data.country_name === 'India') {
-                    router.push('https://d2aatelier.com/');
+                    if (window.location.href !== 'https://d2aatelier.com/') {
+                        router.push('https://d2aatelier.com/');
+                    }
                 } else {
-                    router.push('https://d2aatelier.in/');
+                    if (window.location.href !== 'https://d2aatelier.in/') {
+                        router.push('https://d2aatelier.in/');
+                    }
                 }
             } catch (error) {
                 console.error('Error fetching country:', error);
@@ -26,7 +29,7 @@ function MyApp({ Component, pageProps }) {
         };
 
         fetchCountry();
-    }, []);
+    }, [router]);
 
     return (
         <>
