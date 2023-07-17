@@ -16,20 +16,23 @@ export default function AboutUs() {
 						enough experience and creative minds to achieve the goal and give a
 						path to the next generations. <br />
 						D2A Atelier has grown its clientele rapidly since 2020 with a high
-						level of satisfaction in their shop drawing services through their
-						excellent man management, communication and high quality detailing.
+						level of satisfaction in their drafting services through their
+						excellent man management, communication and high-quality detailing.
 					</p>
 					<h1 className='aboutUsTextHeading'>Who we are?</h1>
 					<p className='aboutUsTextContent'>
 						D2A Atelier is an established business based in New Delhi. The
-						company hold a combined experience of 8 years in the shop drawing
-						drafting services fulfilling the needs of clients across a diverse
-						scope within the residential, commercial and industrial sectors.{" "}
+						company hold a combined experience of 8 years in the designing and
+						drafting industry. We are fulfilling the needs of clients across a
+						diverse scope within the Residential, Commercial, Hospitality,
+						Retail, Healthcare and Institutional with a skilled team of
+						Architects, Interior Designers and Drafters.
 						<br />
 						We are well equipped to offer reliable solutions to the modern
-						architectural millwork industry. Our business prides itself on
-						listening to our clients needs and strives to understand their
-						standard for shop drawings.
+						designing industry. Our business is associated with the
+						Architecture, Interior Designing, Construction and Woodworking
+						Industries and we pride itself on listening to our clients needs and
+						strives to understand their working standard.
 						<br />
 						Our vision is &#34;To succeed by delivering a reliable service with
 						a high level of professionalism&#34;. We take this very seriously

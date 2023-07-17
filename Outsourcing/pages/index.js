@@ -1,9 +1,6 @@
 import HomeServices from "../Components/HomeServices";
-import LandingPage from "../Components/LandingPage";
 import LandingPageO from "../Components/Outsourcing/LandingPageO";
 import HomeAbout from "../Components/HomeAbout";
-import HomeCards from "../Components/HomeCards";
-import HomeTestimonials from "../Components/HomeTestimonials";
 import Head from 'next/head'
 import { useStore } from "../store";
 
@@ -39,7 +36,6 @@ export default function Home() {
             <LandingPageO />
             <HomeServices />
             <HomeAbout />
-            <HomeTestimonials />
         </>
     );
 }

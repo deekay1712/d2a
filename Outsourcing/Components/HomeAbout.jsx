@@ -17,7 +17,7 @@ export default function HomeAbout() {
 				<div className='homeAboutSectionRight'>
 					<h2 className='homeAboutSectionHeading'>Our Vision</h2>
 					<p className='homeAboutSectionText'>
-						D2A Atelier&#39;s vision is to lead the architectural industry with
+						D2A Atelier&#39;s vision is to lead the drafting industry with
 						exceptional services and strong client relationships. We aim to
 						innovate and provide reliable, high-quality solutions through
 						cutting-edge technology and skilled professionals, making a positive
@@ -30,11 +30,12 @@ export default function HomeAbout() {
 				<div className='homeAboutSectionLeft'>
 					<h2 className='homeAboutSectionHeading'>Who are we ?</h2>
 					<p className='homeAboutSectionText'>
-						D2A Atelier is a premier architectural firm in New Delhi
-						specializing in shop drawing drafting services. With 8 years of
-						experience, we offer reliable solutions to the modern architectural
-						millwork industry. We prioritize client needs and strive to build
-						lasting relationships through exceptional service.
+						D2A Atelier is a premier outsourcing-based design and drafting firm
+						in New Delhi specializing in Interior drawings, shop drawings and 3D
+						rendering services, with 8 years of combine experience, we offer
+						reliable solutions to the modern designing industry. We prioritize
+						client needs and strive to build long lasting relationships through
+						exceptional services
 					</p>
 				</div>
 				<div className='homeAboutSectionMiddle'></div>
@@ -62,8 +63,8 @@ export default function HomeAbout() {
 						Choose D2A for timely delivery, professional management, and
 						attention to detail. We prioritize client satisfaction through a
 						design process that includes visualization and a commitment to
-						understanding unique requirements. We build long-term relationships
-						by listening to client needs.
+						understanding. We build long-term relationships by listening to
+						client needs.
 					</p>
 				</div>
 			</div>

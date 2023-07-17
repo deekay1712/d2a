@@ -25,7 +25,7 @@ export default function Team() {
 						</a>
 					</div>
 					<div className='teamMemberDesignationWrapper'>
-						<p className='teamMemberDesignation'>Co-Founder & CEO</p>
+						<p className='teamMemberDesignation'>Founder & CEO</p>
 					</div>
 				</div>
 				<div className='teamMemberBio'>
@@ -44,7 +44,7 @@ export default function Team() {
 					<div className='teamFounderImageContainer'>
 						<img
 							className='teamMemberImage'
-							src='/Assets/Team/dharmender.jpg'
+							src='/Assets/Team/DK_Jaishwal_Co-Founder.jpg'
 							alt='Founder'
 						/>
 					</div>
@@ -63,9 +63,7 @@ export default function Team() {
 						</a>
 					</div>
 					<div className='teamMemberDesignationWrapper'>
-						<p className='teamMemberDesignation'>
-							Co-Founder & Managing Director
-						</p>
+						<p className='teamMemberDesignation'>Managing Director</p>
 					</div>
 				</div>
 				<div className='teamMemberBio'>
@@ -126,9 +124,7 @@ export default function Team() {
 						<p className='teamMemberDesignation'>Intermediate Architect</p>
 					</div>
 				</div>
-			</div>
 
-			<div className='teamMembers'>
 				<div className='teamMemberBlock'>
 					<div className='teamMemberImageContainer'>
 						<img
@@ -144,7 +140,9 @@ export default function Team() {
 						<p className='teamMemberDesignation'>Intermediate Architect</p>
 					</div>
 				</div>
+			</div>
 
+			<div className='teamMembers'>
 				<div className='teamMemberBlock'>
 					<div className='teamMemberImageContainer'>
 						<img
@@ -171,6 +169,38 @@ export default function Team() {
 					</div>
 					<div className='teamMemberNameWrapper'>
 						<p className='teamMemberName'>Rahul Sharma</p>
+					</div>
+					<div className='teamMemberDesignationWrapper'>
+						<p className='teamMemberDesignation'>Junior Architect</p>
+					</div>
+				</div>
+
+				<div className='teamMemberBlock'>
+					<div className='teamMemberImageContainer'>
+						<img
+							className='teamMemberImage'
+							src='/Assets/Team/Priya_Interior_Designer_Final.jpg'
+							alt='Member'
+						/>
+					</div>
+					<div className='teamMemberNameWrapper'>
+						<p className='teamMemberName'>Priya</p>
+					</div>
+					<div className='teamMemberDesignationWrapper'>
+						<p className='teamMemberDesignation'>Interior Designer</p>
+					</div>
+				</div>
+
+				<div className='teamMemberBlock'>
+					<div className='teamMemberImageContainer'>
+						<img
+							className='teamMemberImage'
+							src='/Assets/Team/Ankit_Junior_Architect.jpg'
+							alt='Member'
+						/>
+					</div>
+					<div className='teamMemberNameWrapper'>
+						<p className='teamMemberName'>Ankit</p>
 					</div>
 					<div className='teamMemberDesignationWrapper'>
 						<p className='teamMemberDesignation'>Junior Architect</p>
