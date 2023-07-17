@@ -18,9 +18,15 @@ function MyApp({ Component, pageProps }) {
                     if (window.location.href !== 'https://d2aatelier.com/') {
                         router.push('https://d2aatelier.com/');
                     }
+                    else {
+                        return;
+                    }
                 } else {
                     if (window.location.href !== 'https://d2aatelier.in/') {
                         router.push('https://d2aatelier.in/');
+                    }
+                    else {
+                        return;
                     }
                 }
             } catch (error) {
