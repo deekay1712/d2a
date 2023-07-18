@@ -5,37 +5,46 @@ import { StoreProvider } from "../store";
 import Head from "next/head";
 import { useRouter } from 'next/router';
 import { useEffect } from "react";
+import Cookies from 'js-cookie';
+import axios from 'axios';
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
+
     useEffect(() => {
-        const fetchCountry = async () => {
+        const checkCountryAndRedirect = async () => {
             try {
+                // Check if the user has already been redirected
+                const redirected = Cookies.get('redirected');
+
+                // Check if the user is on the .com or .in domain
+                const isCom = router.asPath.endsWith('.com');
+
+                // Fetch user's country using ipapi.com/json API
                 const res = await fetch('https://ipapi.co/json/');
                 const data = await res.json();
-                console.log(data.country_name)
-                if (data.country_name === 'India') {
-                    if (window.location.href !== 'https://d2aatelier.com/') {
-                        router.push('https://d2aatelier.com/');
-                    }
-                    else {
-                        return;
+
+                // Perform redirection based on the user's country and domain
+                if (!redirected && data.country_name !== 'India') {
+                    if (isCom) {
+                        // Redirect .com to .in if the user is not from India
+                        console.log("redirection")
+                        Cookies.set('redirected', 'true');
+                        router.replace(router.asPath.replace('.com', '.in'));
+                    } else {
+                        console.log("no redirection")
+                        Cookies.set('redirected', 'true');
                     }
                 } else {
-                    if (window.location.href !== 'https://d2aatelier.in/') {
-                        router.push('https://d2aatelier.in/');
-                    }
-                    else {
-                        return;
-                    }
+                    console.log("True")
                 }
             } catch (error) {
-                console.error('Error fetching country:', error);
+                console.error('Error fetching user country:', error);
             }
         };
 
-        fetchCountry();
-    }, [router]);
+        checkCountryAndRedirect();
+    }, []);
 
     return (
         <>
