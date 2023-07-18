@@ -8,14 +8,14 @@ export default function Footer() {
 					<img src='/Assets/LogoWhite.png' alt='logo' className='footerLogo' />
 				</Link>
 				<div className='footerAbout'>
-					<p className='footerContent'>
+					{/* <p className='footerContent'>
 						D2A Atelier is a premier drafting and design firm based in New
 						Delhi, India. With a combined experience of 8 years, our team of
 						professional architects offer a wide range of services, including
 						AutoCAD drafting, SketchUp, BIM, and 3D visualization. We are
 						dedicated to delivering high-quality solutions and ensuring a
 						seamless experience for our clients, from start to finish.
-					</p>
+					</p> */}
 				</div>
 				<div className='footerListItem'>
 					<Link href='/about-us'>

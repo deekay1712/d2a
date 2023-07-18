@@ -9,7 +9,7 @@ export default function LandingPageO() {
 					services.
 				</p>
 				<p className='landingPageText'>
-					We are available 24x7 for your shop drawings.
+					We are available 24x7 for your drawings.
 				</p>
 				<div className='landingPageOButtons'>
 					<div className='landingPageOButton landingPageOButtonOutline'>

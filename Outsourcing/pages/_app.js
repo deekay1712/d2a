@@ -5,44 +5,25 @@ import { StoreProvider } from "../store";
 import Head from "next/head";
 import { useEffect } from "react"
 import { useRouter } from 'next/router';
-import Cookies from "js-cookie";
 
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
 
     useEffect(() => {
-        const checkCountryAndRedirect = async () => {
+        const fetchCountry = async () => {
             try {
-                // Check if the user has already been redirected
-                const redirected = Cookies.get('redirected');
+                const response = await fetch('http://ip-api.com/json/');
+                const data = await response.json();
 
-                // Check if the user is on the .com or .in domain
-                const isCom = router.asPath.endsWith('.com');
-
-                // Fetch user's country using ipapi.com/json API
-                const res = await fetch('https://ipapi.co/json/');
-                const data = await res.json();
-
-                // Perform redirection based on the user's country and domain
-                if (!redirected && data.country_name !== 'India') {
-                    if (isCom) {
-                        // Redirect .com to .in if the user is not from India
-                        console.log("redirection")
-                        Cookies.set('redirected', 'true');
-                        router.replace(router.asPath.replace('.com', '.in'));
-                    } else {
-                        console.log("no redirection")
-                        Cookies.set('redirected', 'true');
-                    }
-                } else {
-                    console.log("True")
+                if (data.country === 'India') {
+                    window.location.href = 'https://d2aatelier.com';
                 }
             } catch (error) {
-                console.error('Error fetching user country:', error);
+                console.error('Error fetching geolocation:', error);
             }
         };
 
-        checkCountryAndRedirect();
+        fetchCountry();
     }, []);
 
     return (
