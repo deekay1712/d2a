@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
                 const response = await fetch('https://ipapi.co/json/');
                 const data = await response.json();
                 console.log(data)
-                if (data.country_name === 'IN') {
+                if (data.country === 'IN') {
                     window.location.href = 'https://d2aatelier.com';
                 }
             } catch (error) {
