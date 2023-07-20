@@ -63,7 +63,9 @@ export default function Team() {
 						</a>
 					</div>
 					<div className='teamMemberDesignationWrapper'>
-						<p className='teamMemberDesignation'>Managing Director</p>
+						<p className='teamMemberDesignation'>
+							Co-founder & Managing Director
+						</p>
 					</div>
 				</div>
 				<div className='teamMemberBio'>

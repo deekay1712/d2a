@@ -4,10 +4,8 @@ import Layout from "../Components/Layout";
 import { StoreProvider } from "../store";
 import Head from "next/head";
 import { useEffect } from "react"
-import { useRouter } from 'next/router';
 
 function MyApp({ Component, pageProps }) {
-    const router = useRouter();
 
     useEffect(() => {
         const fetchCountry = async () => {
