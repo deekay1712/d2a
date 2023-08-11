@@ -7,22 +7,22 @@ import { useEffect } from "react"
 
 function MyApp({ Component, pageProps }) {
 
-    useEffect(() => {
-        const fetchCountry = async () => {
-            try {
-                const response = await fetch('https://ipapi.co/json/');
-                const data = await response.json();
-                console.log(data)
-                if (data.country === 'IN') {
-                    window.location.href = 'https://d2aatelier.com';
-                }
-            } catch (error) {
-                console.error('Error fetching geolocation:', error);
-            }
-        };
+    // useEffect(() => {
+    //     const fetchCountry = async () => {
+    //         try {
+    //             const response = await fetch('https://ipapi.co/json/');
+    //             const data = await response.json();
+    //             console.log(data)
+    //             if (data.country === 'IN') {
+    //                 window.location.href = 'https://d2aatelier.com';
+    //             }
+    //         } catch (error) {
+    //             console.error('Error fetching geolocation:', error);
+    //         }
+    //     };
 
-        fetchCountry();
-    }, []);
+    //     fetchCountry();
+    // }, []);
 
     return (
         <>
