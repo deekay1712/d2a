@@ -9,22 +9,22 @@ import { useEffect } from "react";
 function MyApp({ Component, pageProps }) {
     const router = useRouter();
 
-    useEffect(() => {
-        const fetchCountry = async () => {
-            try {
-                const response = await fetch('https://ipapi.co/json/');
-                const data = await response.json();
+    // useEffect(() => {
+    //     const fetchCountry = async () => {
+    //         try {
+    //             const response = await fetch('https://ipapi.co/json/');
+    //             const data = await response.json();
 
-                if (data.country !== 'IN') {
-                    window.location.href = 'https://d2aatelier.in';
-                }
-            } catch (error) {
-                console.error('Error fetching geolocation:', error);
-            }
-        };
+    //             if (data.country !== 'IN') {
+    //                 window.location.href = 'https://d2aatelier.in';
+    //             }
+    //         } catch (error) {
+    //             console.error('Error fetching geolocation:', error);
+    //         }
+    //     };
 
-        fetchCountry();
-    }, []);
+    //     fetchCountry();
+    // }, []);
 
     return (
         <>
