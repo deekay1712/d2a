@@ -58,7 +58,7 @@ const faqsData = [
 	},
 	{
 		id: 10,
-		question: "Can we relay on D2A Atelier for data security?",
+		question: "Can we relay on Studio Precise for data security?",
 		answer:
 			"Yes, We use networking in our working machines to transfer the data. At the joining we sign NOC with our employees for data security and promote it with our clients.",
 	},

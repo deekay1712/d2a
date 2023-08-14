@@ -39,7 +39,7 @@ export default function Team() {
 					</p>
 				</div>
 			</div>
-			<div className='teamFounder'>
+			{/* <div className='teamFounder'>
 				<div className='teamMemberBlock'>
 					<div className='teamFounderImageContainer'>
 						<img
@@ -77,7 +77,7 @@ export default function Team() {
 						Management and Operations.
 					</p>
 				</div>
-			</div>
+			</div> */}
 			<div className='teamMembers'>
 				<div className='teamMemberBlock'>
 					<div className='teamMemberImageContainer'>

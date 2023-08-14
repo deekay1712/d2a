@@ -9,8 +9,8 @@ export default function ContactUs() {
 		console.log(form.current);
 		emailjs
 			.sendForm(
-				"service_2ow741c",
-				"template_nrj63go",
+				"service_7svpwum",
+				"template_ghfo9wk",
 				form.current,
 				"user_1sr1HGU1K9RyWQpbfXNeh"
 			)
@@ -59,14 +59,14 @@ export default function ContactUs() {
 					</li>
 					<li className='contactUsBannerListItem'>
 						<a
-							href='mailto:admin@d2aatelier.com'
+							href='mailto:admin@studiospace.com'
 							className='contactUsBannerLink'>
 							<img
 								src='/Assets/ic-mail.svg'
 								alt='mail'
 								className='contactUsBannerIcon'
 							/>
-							admin@d2aatelier.com
+							admin@studiospace.com
 						</a>
 					</li>
 				</ul>

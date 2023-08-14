@@ -23,7 +23,7 @@
     align-items: center;
 }
 .navbarLogoImg{
-    width: 50px;
+    width: 180px;
     margin-left: 10px;
 }
 .navbarLogoText{
@@ -128,7 +128,7 @@
 
 @media (max-width: 992px) {
     .navbarLogoImg{
-        display: none;
+        width: 120px;
     }
     .sideDrawer{
         display: block !important;

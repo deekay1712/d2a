@@ -15,7 +15,7 @@ export default function HomeTestimonials() {
 				project. Their commitment to collaboration and teamwork permeated the
 				entire project. If you are looking for an Architectural Firm that is of
 				the highest quality, professional and has a clear commitment to the
-				entire TEAM you bring together you should look no further than D2A they
+				entire TEAM you bring together you should look no further than Studio Precise they
 				will not disappopint you.
 			</p>
 			{/* <div className="homeTestimonialsSlider">

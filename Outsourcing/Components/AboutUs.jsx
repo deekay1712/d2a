@@ -11,17 +11,17 @@ export default function AboutUs() {
 				<div className='aboutUsText'>
 					<h1 className='aboutUsTextHeading'>Our History</h1>
 					<p className='aboutUsTextContent'>
-						D2A Atelier was founded in 2020 by its Founder & CEO Rajesh Kumar
+						Studio Precise was founded in 2020 by its Founder & CEO Rajesh Kumar
 						and Co-Founder & Managing Director D.K. Jaishwal. The company has
 						enough experience and creative minds to achieve the goal and give a
 						path to the next generations. <br />
-						D2A Atelier has grown its clientele rapidly since 2020 with a high
+						Studio Precise has grown its clientele rapidly since 2020 with a high
 						level of satisfaction in their drafting services through their
 						excellent man management, communication and high-quality detailing.
 					</p>
 					<h1 className='aboutUsTextHeading'>Who we are?</h1>
 					<p className='aboutUsTextContent'>
-						D2A Atelier is an established business based in New Delhi. The
+						Studio Precise is an established business based in New Delhi. The
 						company hold a combined experience of 8 years in the designing and
 						drafting industry. We are fulfilling the needs of clients across a
 						diverse scope within the Residential, Commercial, Hospitality,
@@ -41,7 +41,7 @@ export default function AboutUs() {
 					</p>
 					<h1 className='aboutUsTextHeading'>Our values</h1>
 					<p className='aboutUsTextContent'>
-						Our values underpin everything we do at D2A Atelier. The way we
+						Our values underpin everything we do at Studio Precise. The way we
 						approach our work and the way we interact with our colleagues and
 						clients.{" "}
 					</p>
@@ -55,7 +55,7 @@ export default function AboutUs() {
 						<strong>DEPENDABILITY</strong>
 						<br />
 						Our client must be able to rely on us to deliver on our promise
-						without worry with the project quality. You can rely on D2A Atelier
+						without worry with the project quality. You can rely on Studio Precise
 						to complete.
 					</p>
 					<p className='aboutUsTextContent'>
@@ -68,7 +68,7 @@ export default function AboutUs() {
 					<p className='aboutUsTextContent'>
 						<strong>PRIDE</strong>
 						<br />
-						All member of staff at D2A Atelier quickly develop a sense of
+						All member of staff at Studio Precise quickly develop a sense of
 						professional pride in their work, skills, attitudes and in their own
 						abilities due to the quality, dependability and integrity our
 						company offers.

@@ -6,7 +6,7 @@ export default function ServicesO() {
 				<div className='serviceOContent'>
 					<h1 className='serviceOTitle'>AutoCAD</h1>
 					<p className='serviceODescription'>
-						Our team at D2A Atelier is equipped with advanced AutoCAD software,
+						Our team at Studio Precise is equipped with advanced AutoCAD software,
 						allowing us to deliver precise and accurate drafting services to
 						meet your architectural needs. Our focus on detail and attention to
 						every aspect of your project ensures that we deliver high-quality
@@ -37,7 +37,7 @@ export default function ServicesO() {
 				<div className='serviceOContent'>
 					<h1 className='serviceOTitle'>BIM</h1>
 					<p className='serviceODescription'>
-						BIM is an essential tool in modern architecture. Our team at D2A
+						BIM is an essential tool in modern architecture. Our team at Studio Precise
 						Atelier utilizes the latest BIM technology to streamline the design
 						and construction process, providing a more efficient and
 						cost-effective solution for our clients.

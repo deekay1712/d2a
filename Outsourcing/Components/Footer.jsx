@@ -5,11 +5,11 @@ export default function Footer() {
 		<div className='footerWrapper'>
 			<div className='footerColAbout'>
 				<Link href='/'>
-					<img src='/Assets/LogoWhite.png' alt='logo' className='footerLogo' />
+					<img src='/Assets/LogoWhite1.jpg' alt='logo' className='footerLogo' />
 				</Link>
 				<div className='footerAbout'>
 					{/* <p className='footerContent'>
-						D2A Atelier is a premier drafting and design firm based in New
+						Studio Precise is a premier drafting and design firm based in New
 						Delhi, India. With a combined experience of 8 years, our team of
 						professional architects offer a wide range of services, including
 						AutoCAD drafting, SketchUp, BIM, and 3D visualization. We are
@@ -121,21 +121,21 @@ export default function Footer() {
 
 					<li className='footerListItem'>
 						<a
-							href='mailto:admin@d2aatelier.com'
+							href='mailto:admin@studiospace.com'
 							className='footerLink footerContent'>
 							<img
 								src='/Assets/ic-mail.png'
 								alt='mail'
 								className='footerContactIcon'
 							/>
-							admin@d2aatelier.com
+							admin@studiospace.com
 						</a>
 					</li>
 				</ul>
 				<h3 className='footerTitle'>STAY CONNECTED</h3>
 				<div className='footerSocial'>
 					<>
-						<a
+						{/* <a
 							href='https://www.facebook.com/profile.php?id=100081276530407'
 							target='_blank'
 							rel='noreferrer'
@@ -145,9 +145,9 @@ export default function Footer() {
 								alt='facebook'
 								className='footerSocialIcon'
 							/>
-						</a>
+						</a> */}
 						<a
-							href='https://www.instagram.com/d2aatelierdesigningdrafting/'
+							href='https://www.instagram.com/studioprecise/'
 							target='_blank'
 							rel='noreferrer'
 							className='footerSocialLink'>
@@ -157,7 +157,7 @@ export default function Footer() {
 								className='footerSocialIcon'
 							/>
 						</a>
-						<a
+						{/* <a
 							href='https://in.pinterest.com/d2aatelier'
 							target='_blank'
 							rel='noreferrer'
@@ -167,9 +167,9 @@ export default function Footer() {
 								alt='pinterest'
 								className='footerSocialIcon'
 							/>
-						</a>
+						</a> */}
 						<a
-							href='https://www.linkedin.com/company/d2a-atelier/'
+							href='https://www.linkedin.com/company/studio-precise/'
 							target='_blank'
 							rel='noreferrer'
 							className='footerSocialLink'>

@@ -5,7 +5,7 @@ export default function LandingPageO() {
 		<div className='landingPageOWrapper'>
 			<div className='landingPageO'>
 				<p className='landingPageOTitle'>
-					D2A Atelier consists the highest caliber of design and drafting
+					Studio Precise consists the highest caliber of design and drafting
 					services.
 				</p>
 				<p className='landingPageText'>

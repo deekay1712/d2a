@@ -23,10 +23,10 @@ export default function Navbar() {
 		<div className='navbarWrapper'>
 			<div className='navbarLogo'>
 				<Link href='/'>
-					{/* <a><img className='navbarLogoImg' src="/Assets/LogoBlack.png" alt="" /></a> */}
-					<a>
-						<span className='navbarLogoText'>D2A Atelier</span>
-					</a>
+					<a><img className='navbarLogoImg' src="/Assets/LogoBlack2.jpg" alt="" /></a>
+					{/* <a>
+						<span className='navbarLogoText'>Studio Precise</span>
+					</a> */}
 				</Link>
 			</div>
 			<ul className={`navbarElements ${sideBar ? "" : "sideBarHide"}`}>

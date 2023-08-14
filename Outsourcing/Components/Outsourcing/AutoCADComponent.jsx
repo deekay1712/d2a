@@ -10,17 +10,17 @@ export default function AutoCADComponent() {
 		1: {
 			title: "Tile Shop Drawings",
 			content:
-				"Tile shop drawings typically include information such as tile layouts, dimensions, patterns, grout joints, and any specific installation instructions. They may also include details about transitions, trim pieces, or special considerations for tile installations, such as waterproofing or substrate preparation. \n\nThe purpose of tile shop drawings is to communicate the design intent and installation requirements. These drawings help ensure that the tile work is installed correctly, meets design specifications, and complies with relevant industry standards and best practices.\n\nAt D2A Atelier, we are working on tile shop drawings with our team of experienced engineers, they work on plans, elevations, sections, and details to make error-free installation on site.",
+				"Tile shop drawings typically include information such as tile layouts, dimensions, patterns, grout joints, and any specific installation instructions. They may also include details about transitions, trim pieces, or special considerations for tile installations, such as waterproofing or substrate preparation. \n\nThe purpose of tile shop drawings is to communicate the design intent and installation requirements. These drawings help ensure that the tile work is installed correctly, meets design specifications, and complies with relevant industry standards and best practices.\n\nAt Studio Precise, we are working on tile shop drawings with our team of experienced engineers, they work on plans, elevations, sections, and details to make error-free installation on site.",
 		},
 		2: {
 			title: "Stone Shop Drawings",
 			content:
-				"Stone shop drawings are detailed drawings that provide information and instructions including precise dimensions, material specifications, and assembly details for various stone components, such as countertops, cladding panels, staircases, fireplace surrounds, and other architectural elements.\n\nD2A Atelier is working on the stone shop drawings since 2020, The drawings may include plans, elevations, sections, and details as necessary, to accurately depict the design intent.\n\nD2A Atelier incorporates important details such as joint locations, edge profiles, anchoring systems, seam locations, and any special considerations required for the particular stone material being used.",
+				"Stone shop drawings are detailed drawings that provide information and instructions including precise dimensions, material specifications, and assembly details for various stone components, such as countertops, cladding panels, staircases, fireplace surrounds, and other architectural elements.\n\nStudio Precise is working on the stone shop drawings since 2020, The drawings may include plans, elevations, sections, and details as necessary, to accurately depict the design intent.\n\nStudio Precise incorporates important details such as joint locations, edge profiles, anchoring systems, seam locations, and any special considerations required for the particular stone material being used.",
 		},
 		3: {
 			title: "Millwork Shop Drawings",
 			content:
-				"D2A Atelier is an organization that specializes in offering a broad range of millwork services, including architectural woodworking, casework, furniture, commercial cabinets, shop fittings, and more. Our technical team is proficient in millwork drafting, CAD applications, and AWI architectural woodworking standards \n\nThe ideal workflow has been established by D2A Atelier for architects, designers, builders, and woodworkers. The team collaborates closely with you to create drawing templates for all of your architectural millwork and woodwork while utilizing the most recent tools and technologies. \nFrom first take-offs to final red-line copy corrections, D2A Atelier offers a full spectrum of drawing solutions, giving you more time for business management and planning. \n\nD2A Atelier staff committed to provide accurate and on time works with clients to meet their needs for millwork fabrications. D2A Atelier consistently completes projects on schedule and with a high degree of accuracy, assisting in cutting costs. \n\nFor the plans, elevations, sections, details, and material & hardware schedules, We complies with your drawing standards and formatting specifications and We can provide a new and fresh standard also as per the requirements. \n\nFor the more information about our services contact us today.",
+				"Studio Precise is an organization that specializes in offering a broad range of millwork services, including architectural woodworking, casework, furniture, commercial cabinets, shop fittings, and more. Our technical team is proficient in millwork drafting, CAD applications, and AWI architectural woodworking standards \n\nThe ideal workflow has been established by Studio Precise for architects, designers, builders, and woodworkers. The team collaborates closely with you to create drawing templates for all of your architectural millwork and woodwork while utilizing the most recent tools and technologies. \nFrom first take-offs to final red-line copy corrections, Studio Precise offers a full spectrum of drawing solutions, giving you more time for business management and planning. \n\nStudio Precise staff committed to provide accurate and on time works with clients to meet their needs for millwork fabrications. Studio Precise consistently completes projects on schedule and with a high degree of accuracy, assisting in cutting costs. \n\nFor the plans, elevations, sections, details, and material & hardware schedules, We complies with your drawing standards and formatting specifications and We can provide a new and fresh standard also as per the requirements. \n\nFor the more information about our services contact us today.",
 		},
 		4: {
 			title: "As Built Services",
@@ -30,13 +30,13 @@ export default function AutoCADComponent() {
 		5: {
 			title: "Interior Drafting & Design Development Process (DDP)",
 			content:
-				"Interior drawings must constantly be more focused with solid software abilities. It is primarily required an experienced team with understanding of precise coordination and a creative attitude. Interior drawings are always created step by step, following the design development process. \n\nThe D2A Atelier team has knowledge in Hospitality, Restaurant, Residence, and Retail interior drawings and design development processes, and they are aware of the unique locations where drawings must be more focused and accurate.",
+				"Interior drawings must constantly be more focused with solid software abilities. It is primarily required an experienced team with understanding of precise coordination and a creative attitude. Interior drawings are always created step by step, following the design development process. \n\nThe Studio Precise team has knowledge in Hospitality, Restaurant, Residence, and Retail interior drawings and design development processes, and they are aware of the unique locations where drawings must be more focused and accurate.",
 		},
 	};
 	return (
 		<>
 			<Head>
-				<title>AUTOCAD SERVICES - D2A Atelier</title>
+				<title>AUTOCAD SERVICES - Studio Precise</title>
 				<link
 					rel='apple-touch-icon'
 					sizes='180x180'
@@ -60,26 +60,26 @@ export default function AutoCADComponent() {
 				<meta name='theme-color' content='#000000' />
 				<meta
 					name='description'
-					content='D2A Atelier is a design firm based in the heart of the city of DELHI. We are a team of creative and experienced professionals who are passionate about creating beautiful spaces.'
+					content='Studio Precise is a design firm based in the heart of the city of DELHI. We are a team of creative and experienced professionals who are passionate about creating beautiful spaces.'
 				/>
-				<link rel='canonical' href='https://www.d2aatelier.com/' />
+				<link rel='canonical' href='https://www.studioprecise.com/' />
 				<meta name='googlebot' content='notranslate' />
 				<meta property='og:locale' content='en_US' />
 				<meta property='og:type' content='website' />
-				<meta property='og:title' content='SERVICES - D2A Atelier' />
+				<meta property='og:title' content='SERVICES - Studio Precise' />
 				<meta
 					property='og:description'
 					content='We are a team of creative and experienced professionals who are passionate about creating beautiful spaces.'
 				/>
-				<meta property='og:url' content='https://www.d2aatelier.com/' />
-				<meta property='og:site_name' content='D2A Atelier' />
+				<meta property='og:url' content='https://www.studioprecise.com/' />
+				<meta property='og:site_name' content='Studio Precise' />
 				<meta property='og:image' content='/Assets/carousel1.jpeg' />
 				<meta property='og:image:secure_url' content='/Assets/carousel1.jpeg' />
 				<meta
 					name='twitter:description'
-					content='D2A Atelier is a design firm based in the heart of the city of DELHI. We are a team of creative and experienced professionals who are passionate about creating beautiful spaces.'
+					content='Studio Precise is a design firm based in the heart of the city of DELHI. We are a team of creative and experienced professionals who are passionate about creating beautiful spaces.'
 				/>
-				<meta name='twitter:title' content='ABOUT US - D2A Atelier' />
+				<meta name='twitter:title' content='ABOUT US - Studio Precise' />
 				<meta name='twitter:image' content='/Assets/carousel1.jpeg' />
 			</Head>
 			<div className='serviceComponentOWrapper'>
@@ -88,9 +88,9 @@ export default function AutoCADComponent() {
 				</div>
 				<div className='serviceComponentOContent'>
 					<p className='serviceComponentOContentText'>
-						D2A Atelier is a stablish firm with a skilled team of Architects,
+						Studio Precise is a stablish firm with a skilled team of Architects,
 						Interior designers, and Drafters with a wide range of expertise in
-						AutoCAD drafting. D2A Atelier&rsquo;s service users are associated
+						AutoCAD drafting. Studio Precise&rsquo;s service users are associated
 						with the Architecture, Interior Designing, Construction and
 						Woodworking Industries.
 					</p>
