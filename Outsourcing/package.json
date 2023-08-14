@@ -1,5 +1,5 @@
 {
-  "name": "Studio Precise",
+  "name": "studio-precise",
   "private": true,
   "scripts": {
     "dev": "next dev",
