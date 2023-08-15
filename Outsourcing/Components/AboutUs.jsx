@@ -11,8 +11,7 @@ export default function AboutUs() {
 				<div className='aboutUsText'>
 					<h1 className='aboutUsTextHeading'>Our History</h1>
 					<p className='aboutUsTextContent'>
-						Studio Precise was founded in 2020 by its Founder & CEO Rajesh Kumar
-						and Co-Founder & Managing Director D.K. Jaishwal. The company has
+						Studio Precise was founded in 2020 by its Founder & CEO Rajesh Kumar. The company has
 						enough experience and creative minds to achieve the goal and give a
 						path to the next generations. <br />
 						Studio Precise has grown its clientele rapidly since 2020 with a high
