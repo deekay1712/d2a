@@ -5,7 +5,7 @@ export default function Footer() {
 		<div className='footerWrapper'>
 			<div className='footerColAbout'>
 				<Link href='/'>
-					<img src='/Assets/LogoWhite1.jpg' alt='logo' className='footerLogo' />
+					<img src='/Assets/Logo.png' alt='logo' className='footerLogo' />
 				</Link>
 				<div className='footerAbout'>
 					{/* <p className='footerContent'>
@@ -121,14 +121,14 @@ export default function Footer() {
 
 					<li className='footerListItem'>
 						<a
-							href='mailto:admin@studiospace.com'
+							href='mailto:admin@studioprecise.com'
 							className='footerLink footerContent'>
 							<img
 								src='/Assets/ic-mail.png'
 								alt='mail'
 								className='footerContactIcon'
 							/>
-							admin@studiospace.com
+							admin@studioprecise.com
 						</a>
 					</li>
 				</ul>

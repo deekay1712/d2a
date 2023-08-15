@@ -59,14 +59,14 @@ export default function ContactUs() {
 					</li>
 					<li className='contactUsBannerListItem'>
 						<a
-							href='mailto:admin@studiospace.com'
+							href='mailto:admin@studioprecise.com'
 							className='contactUsBannerLink'>
 							<img
 								src='/Assets/ic-mail.svg'
 								alt='mail'
 								className='contactUsBannerIcon'
 							/>
-							admin@studiospace.com
+							admin@studioprecise.com
 						</a>
 					</li>
 				</ul>
